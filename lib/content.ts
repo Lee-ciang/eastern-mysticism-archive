@@ -251,3 +251,23 @@ export function getRitualBySlug(slug: string) {
     }),
   };
 }
+
+export function getEntryTitleBySlug(slug: string) {
+  const collections = [
+    getAllSymbols(),
+    getAllFengShuiEntries(),
+    getAllFolkBeliefs(),
+    getAllTaoismEntries(),
+    getAllRituals(),
+  ];
+
+  for (const collection of collections) {
+    const match = collection.find((entry) => entry.slug === slug);
+
+    if (match) {
+      return match.title;
+    }
+  }
+
+  return slug;
+}

@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import ReactMarkdown from "react-markdown";
-import { getTaoismEntryBySlug } from "@/lib/content";
+import {
+  getEntryTitleBySlug,
+  getTaoismEntryBySlug,
+} from "@/lib/content";
 
 type PageProps = {
   params: Promise<{
@@ -103,7 +106,7 @@ export default async function TaoismEntryPage({ params }: PageProps) {
           href={`/symbols/${relatedSlug}`}
           className="rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-100 transition hover:border-neutral-500 hover:bg-neutral-800"
         >
-          {relatedSlug}
+          {getEntryTitleBySlug(relatedSlug)}
         </Link>
       ))}
     </div>
