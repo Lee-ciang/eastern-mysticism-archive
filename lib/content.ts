@@ -35,3 +35,16 @@ export function getSymbolBySlug(slug: string): SymbolEntry {
     content,
   };
 }
+
+export function getAllSymbols(): SymbolEntry[] {
+  const symbolsDirectory = path.join(contentDirectory, "symbols");
+
+  const fileNames = fs.readdirSync(symbolsDirectory);
+
+  return fileNames
+    .filter((fileName) => fileName.endsWith(".md"))
+    .map((fileName) => {
+      const slug = fileName.replace(/\.md$/, "");
+      return getSymbolBySlug(slug);
+    });
+}

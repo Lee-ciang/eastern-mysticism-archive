@@ -1,4 +1,9 @@
+import Link from "next/link";
+import { getAllSymbols } from "@/lib/content";
+
 export default function HomePage() {
+const symbols = getAllSymbols();
+
   return (
     <main className="min-h-screen bg-black text-neutral-100">
       <section className="mx-auto max-w-5xl px-6 py-24">
@@ -37,15 +42,19 @@ export default function HomePage() {
             Ancient Rituals
           </div>
 
-          <a
-            href="/symbols/yin-yang"
-            className="rounded-full border border-neutral-700 bg-neutral-900 px-5 py-2 text-sm text-neutral-100 transition hover:border-neutral-500 hover:bg-neutral-800"
-          >
-            Yin Yang Symbol
-          </a>
+          {symbols.map((symbol) => (
+  <Link
+    key={symbol.slug}
+    href={`/symbols/${symbol.slug}`}
+    className="rounded-full border border-neutral-700 bg-neutral-900 px-5 py-2 text-sm text-neutral-100 transition hover:border-neutral-500 hover:bg-neutral-800"
+  >
+    {symbol.title}
+  </Link>
+))}
         </div>
         
         </section>
     </main>
   );
 }
+
