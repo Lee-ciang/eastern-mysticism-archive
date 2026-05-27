@@ -36,8 +36,16 @@ export default function HomePage() {
           <div className="rounded-full border border-neutral-800 px-5 py-2 text-sm text-neutral-300">
             Ancient Rituals
           </div>
+
+          <a
+            href="/symbols/yin-yang"
+            className="rounded-full border border-neutral-700 bg-neutral-900 px-5 py-2 text-sm text-neutral-100 transition hover:border-neutral-500 hover:bg-neutral-800"
+          >
+            Yin Yang Symbol
+          </a>
         </div>
-      </section>
+        
+        </section>
     </main>
   );
 }
