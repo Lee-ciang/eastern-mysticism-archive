@@ -12,7 +12,7 @@ primary_keywords:
   - "chinese geomancy compass"
 related:
   - "bagua"
-  - "yin-yang-symbol"
+  - "yin-yang"
 status: "draft"
 last_reviewed: "2026-05-27"
 ---

@@ -38,6 +38,13 @@ export default function RootLayout({
               >
                 Feng Shui
               </Link>
+
+              <Link
+  href="/folk-beliefs"
+  className="hover:text-neutral-200"
+>
+  Folk Beliefs
+</Link>
             </nav>
           </div>
         </header>

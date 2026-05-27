@@ -1,6 +1,6 @@
 ---
 title: "Yin Yang Symbol"
-slug: "yin-yang-symbol"
+slug: "yin-yang"
 category: "symbols"
 chinese_name: "阴阳"
 pinyin: "Yin Yang"

@@ -12,7 +12,7 @@ primary_keywords:
   - "taoist bagua"
   - "i ching bagua"
 related:
-  - "yin-yang-symbol"
+  - "yin-yang"
   - "five-elements"
 status: "draft"
 last_reviewed: "2026-05-27"

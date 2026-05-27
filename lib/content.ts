@@ -96,3 +96,49 @@ export function getFengShuiEntryBySlug(
 
   return entry;
 }
+
+export type FolkBeliefEntry = {
+  title: string;
+  slug: string;
+  category: string;
+  chinese_name: string;
+  pinyin: string;
+  tradition: string;
+  source_type: string;
+  primary_keywords: string[];
+  related: string[];
+  status: string;
+  last_reviewed: string;
+  content: string;
+};
+
+export function getAllFolkBeliefs(): FolkBeliefEntry[] {
+  const directory = path.join(process.cwd(), "content/folk-beliefs");
+
+  const filenames = fs.readdirSync(directory);
+
+  return filenames.map((filename) => {
+    const filePath = path.join(directory, filename);
+
+    const fileContents = fs.readFileSync(filePath, "utf8");
+
+    const { data, content } = matter(fileContents);
+
+    return {
+      ...(data as Omit<FolkBeliefEntry, "content">),
+      content,
+    };
+  });
+}
+
+export function getFolkBeliefBySlug(slug: string): FolkBeliefEntry {
+  const entries = getAllFolkBeliefs();
+
+  const entry = entries.find((item) => item.slug === slug);
+
+  if (!entry) {
+    throw new Error("Folk belief entry not found");
+  }
+
+  return entry;
+}
