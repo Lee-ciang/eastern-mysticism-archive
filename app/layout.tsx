@@ -24,27 +24,34 @@ export default function RootLayout({
               Eastern Mysticism Archive
             </Link>
 
-            <nav className="flex items-center gap-6 text-sm text-neutral-400">
+            <nav className="flex items-center gap-6 text-sm font-medium text-neutral-700">
               <Link
                 href="/symbols"
-                className="hover:text-neutral-200"
+                className="transition hover:text-black"
               >
                 Symbols
               </Link>
 
               <Link
                 href="/feng-shui"
-                className="hover:text-neutral-200"
+                className="transition hover:text-black"
               >
                 Feng Shui
               </Link>
 
               <Link
-  href="/folk-beliefs"
-  className="hover:text-neutral-200"
->
-  Folk Beliefs
-</Link>
+                href="/folk-beliefs"
+                className="transition hover:text-black"
+              >
+               Folk Beliefs
+              </Link>
+
+              <Link
+                href="/taoism"
+                className="transition hover:text-black"
+              >
+               Taoism
+              </Link>
             </nav>
           </div>
         </header>

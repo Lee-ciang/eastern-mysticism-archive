@@ -142,3 +142,51 @@ export function getFolkBeliefBySlug(slug: string): FolkBeliefEntry {
 
   return entry;
 }
+
+export type TaoismEntry = {
+  title: string;
+  slug: string;
+  category: string;
+  chinese_name: string;
+  pinyin: string;
+  tradition: string;
+  source_type: string;
+  primary_keywords: string[];
+  related: string[];
+  status: string;
+  last_reviewed: string;
+  content: string;
+};
+
+export function getAllTaoismEntries(): TaoismEntry[] {
+  const directory = path.join(process.cwd(), "content/taoism");
+
+  const filenames = fs.readdirSync(directory);
+
+  return filenames.map((filename) => {
+    const filePath = path.join(directory, filename);
+
+    const fileContents = fs.readFileSync(filePath, "utf8");
+
+    const { data, content } = matter(fileContents);
+
+    return {
+      ...(data as Omit<TaoismEntry, "content">),
+      content,
+    };
+  });
+}
+
+export function getTaoismEntryBySlug(
+  slug: string
+): TaoismEntry {
+  const entries = getAllTaoismEntries();
+
+  const entry = entries.find((item) => item.slug === slug);
+
+  if (!entry) {
+    throw new Error("Taoism entry not found");
+  }
+
+  return entry;
+}
