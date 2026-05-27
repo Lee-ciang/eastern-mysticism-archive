@@ -1,5 +1,12 @@
 import Link from "next/link";
 import { getAllSymbols } from "@/lib/content";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Symbol Database | Eastern Mysticism Archive",
+  description:
+    "Explore Eastern mystical symbols, Taoist diagrams, philosophical signs, and cultural motifs.",
+};
 
 export default function SymbolsPage() {
   const symbols = getAllSymbols();

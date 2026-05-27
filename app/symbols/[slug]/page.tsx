@@ -1,11 +1,25 @@
 import { getSymbolBySlug } from "@/lib/content";
 import ReactMarkdown from "react-markdown";
+import type { Metadata } from "next";
 
 type PageProps = {
   params: Promise<{
     slug: string;
   }>;
 };
+
+export async function generateMetadata(
+  props: PageProps
+): Promise<Metadata> {
+  const params = await props.params;
+
+  const symbol = getSymbolBySlug(params.slug);
+
+  return {
+    title: `${symbol.title} | Eastern Mysticism Archive`,
+    description: symbol.tradition,
+  };
+}
 
 export default async function SymbolPage({ params }: PageProps) {
   const { slug } = await params;
