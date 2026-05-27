@@ -190,3 +190,64 @@ export function getTaoismEntryBySlug(
 
   return entry;
 }
+
+export function getAllRituals() {
+  const ritualDirectory = path.join(
+    process.cwd(),
+    "content/rituals"
+  );
+
+  const files = fs.readdirSync(ritualDirectory);
+
+  return files.map((file) => {
+    const slug = file.replace(".md", "");
+
+    const fullPath = path.join(
+      ritualDirectory,
+      file
+    );
+
+    const fileContents = fs.readFileSync(
+      fullPath,
+      "utf8"
+    );
+
+    const { data } = matter(fileContents);
+
+    return {
+      slug,
+      ...(data as {
+        title: string;
+        tradition: string;
+        category: string;
+        related: string[];
+      }),
+    };
+  });
+}
+
+export function getRitualBySlug(slug: string) {
+  const fullPath = path.join(
+    process.cwd(),
+    "content/rituals",
+    `${slug}.md`
+  );
+
+  const fileContents = fs.readFileSync(
+    fullPath,
+    "utf8"
+  );
+
+  const { data, content } = matter(fileContents);
+
+  return {
+    slug,
+    content,
+    ...(data as {
+      title: string;
+      tradition: string;
+      category: string;
+      related: string[];
+    }),
+  };
+}
