@@ -1,6 +1,7 @@
 import { getSymbolBySlug } from "@/lib/content";
 import ReactMarkdown from "react-markdown";
 import type { Metadata } from "next";
+import Link from "next/link";
 
 type PageProps = {
   params: Promise<{
@@ -46,6 +47,27 @@ export default async function SymbolPage({ params }: PageProps) {
     {symbol.content}
   </ReactMarkdown>
 </div>
+
+{symbol.related.length > 0 && (
+  <section className="mt-16 border-t border-neutral-800 pt-10">
+    <h2 className="text-2xl font-semibold">
+      Related Symbols
+    </h2>
+
+    <div className="mt-6 flex flex-wrap gap-4">
+      {symbol.related.map((relatedSlug) => (
+        <Link
+          key={relatedSlug}
+          href={`/symbols/${relatedSlug}`}
+          className="rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-100 transition hover:border-neutral-500 hover:bg-neutral-800"
+        >
+          {relatedSlug}
+        </Link>
+      ))}
+    </div>
+  </section>
+)}
+
       </article>
     </main>
   );
