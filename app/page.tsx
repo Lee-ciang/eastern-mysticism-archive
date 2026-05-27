@@ -1,8 +1,12 @@
 import Link from "next/link";
-import { getAllSymbols } from "@/lib/content";
+import {
+  getAllFengShuiEntries,
+  getAllSymbols,
+} from "@/lib/content";
 
 export default function HomePage() {
-const symbols = getAllSymbols();
+  const symbols = getAllSymbols();
+  const fengShuiEntries = getAllFengShuiEntries();
 
   return (
     <main className="min-h-screen bg-black text-neutral-100">
@@ -21,40 +25,38 @@ const symbols = getAllSymbols();
           forgotten folklore.
         </p>
 
-        <div className="mt-12 flex flex-wrap gap-4">
-          <div className="rounded-full border border-neutral-800 px-5 py-2 text-sm text-neutral-300">
-            Taoist Symbols
-          </div>
+        <div className="mt-12">
+          <h2 className="text-xl font-semibold">Symbol Database</h2>
 
-          <div className="rounded-full border border-neutral-800 px-5 py-2 text-sm text-neutral-300">
-            Feng Shui
+          <div className="mt-6 flex flex-wrap gap-4">
+            {symbols.map((symbol) => (
+              <Link
+                key={symbol.slug}
+                href={`/symbols/${symbol.slug}`}
+                className="rounded-full border border-neutral-700 bg-neutral-900 px-5 py-2 text-sm text-neutral-100 transition hover:border-neutral-500 hover:bg-neutral-800"
+              >
+                {symbol.title}
+              </Link>
+            ))}
           </div>
-
-          <div className="rounded-full border border-neutral-800 px-5 py-2 text-sm text-neutral-300">
-            Folk Beliefs
-          </div>
-
-          <div className="rounded-full border border-neutral-800 px-5 py-2 text-sm text-neutral-300">
-            Jade Culture
-          </div>
-
-          <div className="rounded-full border border-neutral-800 px-5 py-2 text-sm text-neutral-300">
-            Ancient Rituals
-          </div>
-
-          {symbols.map((symbol) => (
-  <Link
-    key={symbol.slug}
-    href={`/symbols/${symbol.slug}`}
-    className="rounded-full border border-neutral-700 bg-neutral-900 px-5 py-2 text-sm text-neutral-100 transition hover:border-neutral-500 hover:bg-neutral-800"
-  >
-    {symbol.title}
-  </Link>
-))}
         </div>
-        
-        </section>
+
+        <div className="mt-16">
+          <h2 className="text-xl font-semibold">Feng Shui Database</h2>
+
+          <div className="mt-6 flex flex-wrap gap-4">
+            {fengShuiEntries.map((entry) => (
+              <Link
+                key={entry.slug}
+                href={`/feng-shui/${entry.slug}`}
+                className="rounded-full border border-neutral-700 bg-neutral-900 px-5 py-2 text-sm text-neutral-100 transition hover:border-neutral-500 hover:bg-neutral-800"
+              >
+                {entry.title}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
-

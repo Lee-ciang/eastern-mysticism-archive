@@ -48,3 +48,51 @@ export function getAllSymbols(): SymbolEntry[] {
       return getSymbolBySlug(slug);
     });
 }
+
+export type FengShuiEntry = {
+  title: string;
+  slug: string;
+  category: string;
+  chinese_name: string;
+  pinyin: string;
+  tradition: string;
+  source_type: string;
+  primary_keywords: string[];
+  related: string[];
+  status: string;
+  last_reviewed: string;
+  content: string;
+};
+
+export function getAllFengShuiEntries(): FengShuiEntry[] {
+  const directory = path.join(process.cwd(), "content/feng-shui");
+
+  const filenames = fs.readdirSync(directory);
+
+  return filenames.map((filename) => {
+    const filePath = path.join(directory, filename);
+
+    const fileContents = fs.readFileSync(filePath, "utf8");
+
+    const { data, content } = matter(fileContents);
+
+    return {
+      ...(data as Omit<FengShuiEntry, "content">),
+      content,
+    };
+  });
+}
+
+export function getFengShuiEntryBySlug(
+  slug: string
+): FengShuiEntry {
+  const entries = getAllFengShuiEntries();
+
+  const entry = entries.find((item) => item.slug === slug);
+
+  if (!entry) {
+    throw new Error("Feng Shui entry not found");
+  }
+
+  return entry;
+}

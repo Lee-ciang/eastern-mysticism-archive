@@ -20,6 +20,10 @@ export default function SymbolsPage() {
 
         <h1 className="text-5xl font-bold">Symbols</h1>
 
+        <p className="mt-4 text-sm uppercase tracking-[0.3em] text-neutral-500">
+  {symbols.length} entries in database
+</p>
+
         <p className="mt-6 max-w-2xl text-lg leading-8 text-neutral-400">
           Explore symbolic systems, sacred diagrams, philosophical signs, and
           cultural motifs from Eastern mystical traditions.

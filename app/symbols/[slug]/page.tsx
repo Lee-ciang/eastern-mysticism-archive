@@ -30,6 +30,26 @@ export default async function SymbolPage({ params }: PageProps) {
   return (
     <main className="min-h-screen bg-black px-6 py-20 text-neutral-100">
       <article className="mx-auto max-w-3xl">
+        <nav className="mb-8 text-sm text-neutral-500">
+  <Link href="/" className="hover:text-neutral-300">
+    Home
+  </Link>
+
+  <span className="mx-2">/</span>
+
+  <Link
+    href="/symbols"
+    className="hover:text-neutral-300"
+  >
+    Symbols
+  </Link>
+
+  <span className="mx-2">/</span>
+
+  <span className="text-neutral-300">
+    {symbol.title}
+  </span>
+</nav>
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-neutral-500">
           {symbol.category}
         </p>
@@ -43,9 +63,47 @@ export default async function SymbolPage({ params }: PageProps) {
         </p>
 
         <div className="prose prose-invert mt-12 max-w-none">
-  <ReactMarkdown>
-    {symbol.content}
-  </ReactMarkdown>
+  <ReactMarkdown
+  components={{
+    h1: ({ children }) => (
+      <h1 className="mt-12 mb-6 text-4xl font-bold">
+        {children}
+      </h1>
+    ),
+
+    h2: ({ children }) => (
+      <h2 className="mt-10 mb-4 text-2xl font-semibold">
+        {children}
+      </h2>
+    ),
+
+    h3: ({ children }) => (
+      <h3 className="mt-8 mb-3 text-xl font-semibold">
+        {children}
+      </h3>
+    ),
+
+    p: ({ children }) => (
+      <p className="mb-6 leading-8 text-neutral-300">
+        {children}
+      </p>
+    ),
+
+    ul: ({ children }) => (
+      <ul className="mb-6 list-disc space-y-2 pl-6 text-neutral-300">
+        {children}
+      </ul>
+    ),
+
+    li: ({ children }) => (
+      <li className="leading-7">
+        {children}
+      </li>
+    ),
+  }}
+>
+  {symbol.content}
+</ReactMarkdown>
 </div>
 
 {symbol.related.length > 0 && (
