@@ -2,11 +2,17 @@ import Link from "next/link";
 import {
   getAllFengShuiEntries,
   getAllSymbols,
+  getAllFolkBeliefs,
+  getAllTaoismEntries,
+  getAllRituals,
 } from "@/lib/content";
 
 export default function HomePage() {
   const symbols = getAllSymbols();
   const fengShuiEntries = getAllFengShuiEntries();
+  const folkBeliefs = getAllFolkBeliefs();
+  const taoismEntries = getAllTaoismEntries();
+  const rituals = getAllRituals();
 
   return (
     <main className="min-h-screen bg-black text-neutral-100">
@@ -56,6 +62,54 @@ export default function HomePage() {
             ))}
           </div>
         </div>
+
+        <div className="mt-16">
+  <h2 className="text-xl font-semibold">Folk Beliefs Database</h2>
+
+  <div className="mt-6 flex flex-wrap gap-4">
+    {folkBeliefs.map((entry) => (
+      <Link
+        key={entry.slug}
+        href={`/folk-beliefs/${entry.slug}`}
+        className="rounded-full border border-neutral-700 bg-neutral-900 px-5 py-2 text-sm text-neutral-100 transition hover:border-neutral-500 hover:bg-neutral-800"
+      >
+        {entry.title}
+      </Link>
+    ))}
+  </div>
+</div>
+
+<div className="mt-16">
+  <h2 className="text-xl font-semibold">Taoism Database</h2>
+
+  <div className="mt-6 flex flex-wrap gap-4">
+    {taoismEntries.map((entry) => (
+      <Link
+        key={entry.slug}
+        href={`/taoism/${entry.slug}`}
+        className="rounded-full border border-neutral-700 bg-neutral-900 px-5 py-2 text-sm text-neutral-100 transition hover:border-neutral-500 hover:bg-neutral-800"
+      >
+        {entry.title}
+      </Link>
+    ))}
+  </div>
+</div>
+
+<div className="mt-16">
+  <h2 className="text-xl font-semibold">Rituals Database</h2>
+
+  <div className="mt-6 flex flex-wrap gap-4">
+    {rituals.map((ritual) => (
+      <Link
+        key={ritual.slug}
+        href={`/rituals/${ritual.slug}`}
+        className="rounded-full border border-neutral-700 bg-neutral-900 px-5 py-2 text-sm text-neutral-100 transition hover:border-neutral-500 hover:bg-neutral-800"
+      >
+        {ritual.title}
+      </Link>
+    ))}
+  </div>
+</div>
       </section>
     </main>
   );

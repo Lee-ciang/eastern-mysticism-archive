@@ -271,3 +271,25 @@ export function getEntryTitleBySlug(slug: string) {
 
   return slug;
 }
+
+export function getEntryHrefBySlug(slug: string) {
+  const collections = [
+    { href: "/symbols", entries: getAllSymbols() },
+    { href: "/feng-shui", entries: getAllFengShuiEntries() },
+    { href: "/folk-beliefs", entries: getAllFolkBeliefs() },
+    { href: "/taoism", entries: getAllTaoismEntries() },
+    { href: "/rituals", entries: getAllRituals() },
+  ];
+
+  for (const collection of collections) {
+    const match = collection.entries.find(
+      (entry) => entry.slug === slug
+    );
+
+    if (match) {
+      return `${collection.href}/${slug}`;
+    }
+  }
+
+  return `/symbols/${slug}`;
+}

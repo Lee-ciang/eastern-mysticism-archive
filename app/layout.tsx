@@ -52,6 +52,13 @@ export default function RootLayout({
               >
                Taoism
               </Link>
+
+              <Link
+                href="/rituals"
+                className="transition hover:text-black"
+              >
+               Rituals
+              </Link>
             </nav>
           </div>
         </header>
