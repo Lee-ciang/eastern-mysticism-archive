@@ -1,12 +1,21 @@
 import type { Metadata } from "next";
 import ArticleLayout from "@/components/archive/ArticleLayout";
-import { getTaoismEntryBySlug } from "@/lib/content";
+import {
+  getAllTaoismEntries,
+  getTaoismEntryBySlug,
+} from "@/lib/content";
 
 type PageProps = {
   params: Promise<{
     slug: string;
   }>;
 };
+
+export function generateStaticParams() {
+  return getAllTaoismEntries().map((entry) => ({
+    slug: entry.slug,
+  }));
+}
 
 export async function generateMetadata(
   props: PageProps

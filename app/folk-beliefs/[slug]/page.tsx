@@ -1,4 +1,7 @@
-import { getFolkBeliefBySlug } from "@/lib/content";
+import {
+  getAllFolkBeliefs,
+  getFolkBeliefBySlug,
+} from "@/lib/content";
 import type { Metadata } from "next";
 import ArticleLayout from "@/components/archive/ArticleLayout";
 
@@ -7,6 +10,12 @@ type PageProps = {
     slug: string;
   }>;
 };
+
+export function generateStaticParams() {
+  return getAllFolkBeliefs().map((entry) => ({
+    slug: entry.slug,
+  }));
+}
 
 export async function generateMetadata(
   props: PageProps

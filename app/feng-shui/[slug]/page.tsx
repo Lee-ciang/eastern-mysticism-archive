@@ -1,12 +1,21 @@
 import type { Metadata } from "next";
 import ArticleLayout from "@/components/archive/ArticleLayout";
-import { getFengShuiEntryBySlug } from "@/lib/content";
+import {
+  getAllFengShuiEntries,
+  getFengShuiEntryBySlug,
+} from "@/lib/content";
 
 type PageProps = {
   params: Promise<{
     slug: string;
   }>;
 };
+
+export function generateStaticParams() {
+  return getAllFengShuiEntries().map((entry) => ({
+    slug: entry.slug,
+  }));
+}
 
 export async function generateMetadata(
   props: PageProps

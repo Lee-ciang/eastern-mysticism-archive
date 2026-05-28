@@ -1,12 +1,18 @@
 import type { Metadata } from "next";
 import ArticleLayout from "@/components/archive/ArticleLayout";
-import { getRitualBySlug } from "@/lib/content";
+import { getAllRituals, getRitualBySlug } from "@/lib/content";
 
 type PageProps = {
   params: Promise<{
     slug: string;
   }>;
 };
+
+export function generateStaticParams() {
+  return getAllRituals().map((entry) => ({
+    slug: entry.slug,
+  }));
+}
 
 export async function generateMetadata(
   props: PageProps

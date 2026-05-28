@@ -1,12 +1,18 @@
 import type { Metadata } from "next";
 import ArticleLayout from "@/components/archive/ArticleLayout";
-import { getSymbolBySlug } from "@/lib/content";
+import { getAllSymbols, getSymbolBySlug } from "@/lib/content";
 
 type PageProps = {
   params: Promise<{
     slug: string;
   }>;
 };
+
+export function generateStaticParams() {
+  return getAllSymbols().map((entry) => ({
+    slug: entry.slug,
+  }));
+}
 
 export async function generateMetadata(
   props: PageProps
