@@ -1,5 +1,12 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { getAllRituals } from "@/lib/content";
+
+export const metadata: Metadata = {
+  title: "Rituals Database | Eastern Mysticism Archive",
+  description:
+    "Explore Taoist rituals, folk ceremonies, incense offerings, ancestor rites, protection rituals, talisman burning, and purification practices.",
+};
 
 export default function RitualsPage() {
   const rituals = getAllRituals();

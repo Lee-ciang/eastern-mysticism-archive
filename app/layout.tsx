@@ -2,9 +2,13 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata = {
+  metadataBase: new URL("https://eastern-mysticism-archive.vercel.app"),
   title: "Eastern Mysticism Archive",
   description:
     "Research archive exploring Eastern mystical traditions, symbols, feng shui, folklore, and Taoist cosmology.",
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({

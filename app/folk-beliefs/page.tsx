@@ -1,5 +1,12 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { getAllFolkBeliefs } from "@/lib/content";
+
+export const metadata: Metadata = {
+  title: "Folk Beliefs Database | Eastern Mysticism Archive",
+  description:
+    "Explore Chinese folk beliefs, ancestor veneration, household protection, Ghost Month, Kitchen God customs, and protective traditions.",
+};
 
 export default function FolkBeliefsPage() {
   const entries = getAllFolkBeliefs();

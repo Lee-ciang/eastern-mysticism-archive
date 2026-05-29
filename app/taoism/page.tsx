@@ -1,5 +1,12 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { getAllTaoismEntries } from "@/lib/content";
+
+export const metadata: Metadata = {
+  title: "Taoism Database | Eastern Mysticism Archive",
+  description:
+    "Explore Taoist philosophy, cosmology, symbols, ritual traditions, qi, Dao, Wu Wei, and classical Chinese thought systems.",
+};
 
 export default function TaoismPage() {
   const entries = getAllTaoismEntries();
