@@ -7,6 +7,14 @@ related:
   - talisman-burning
   - bagua-map
   - incense-offering
+  - protective-talismans
+  - warding-practices
+  - ritual-purification
+  - threshold-rituals
+  - household-protection
+  - door-protection-symbols
+  - protective-charms
+  - evil-aversion-symbols
 ---
 
 # Overview

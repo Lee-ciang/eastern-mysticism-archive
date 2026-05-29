@@ -15,7 +15,9 @@ related:
   - "ancestor-veneration"
   - "incense-offering"
   - "door-gods"
-  - "folk-beliefs"
+  - "household-protection"
+  - "household-altar"
+  - "protective-folk-customs"
 status: "draft"
 last_reviewed: "2026-05-28"
 ---

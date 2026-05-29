@@ -11,8 +11,16 @@ primary_keywords:
   - "wu xing"
   - "five elements meaning"
 related:
-  - "yin-yang-symbol"
+  - "yin-yang"
   - "bagua"
+  - "five-elements-symbolism"
+  - "generating-cycle"
+  - "overcoming-cycle"
+  - "five-elements-and-qi"
+  - "five-elements-and-bagua"
+  - "five-elements-in-feng-shui"
+  - "qi-and-five-elements"
+  - "bagua-and-five-elements"
 status: "draft"
 last_reviewed: "2026-05-27"
 ---

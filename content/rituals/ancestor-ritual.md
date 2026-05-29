@@ -7,6 +7,12 @@ related:
   - ghost-month
   - incense-offering
   - kitchen-god
+  - ancestor-tablets
+  - household-altar
+  - spirit-offerings
+  - funeral-offerings
+  - ancestor-ritual-symbols
+  - qingming-festival
 ---
 
 # Overview

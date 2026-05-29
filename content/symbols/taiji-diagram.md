@@ -11,8 +11,12 @@ primary_keywords:
   - "taiji symbol meaning"
   - "yin yang diagram"
 related:
-  - "yin-yang-symbol"
+  - "yin-yang"
   - "five-elements"
+  - "taiji-and-wuji"
+  - "yin-yang-cosmology"
+  - "taoist-cosmology"
+  - "cosmic-order"
 status: "draft"
 last_reviewed: "2026-05-27"
 ---

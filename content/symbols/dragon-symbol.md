@@ -12,10 +12,12 @@ primary_keywords:
   - "dragon symbolism"
   - "eastern dragon meaning"
 related:
-  - "feng-shui"
+  - "cosmology-and-feng-shui"
   - "qi"
   - "door-gods"
   - "three-pure-ones"
+  - "guardian-symbols"
+  - "bagua-in-feng-shui"
 status: "draft"
 last_reviewed: "2026-05-28"
 ---

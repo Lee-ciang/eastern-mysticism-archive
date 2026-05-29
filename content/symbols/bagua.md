@@ -14,6 +14,14 @@ primary_keywords:
 related:
   - "yin-yang"
   - "five-elements"
+  - "eight-trigrams"
+  - "early-heaven-bagua"
+  - "later-heaven-bagua"
+  - "bagua-directions"
+  - "bagua-in-feng-shui"
+  - "bagua-and-five-elements"
+  - "qi-and-bagua"
+  - "lo-shu-square"
 status: "draft"
 last_reviewed: "2026-05-27"
 ---
