@@ -17,6 +17,7 @@ related:
   - "city-god"
   - "earth-god"
   - "kitchen-god"
+  - "thunder-deities"
   - "taoist-heavens"
   - "three-realms"
   - "taoist-cosmology"

@@ -13,6 +13,7 @@ primary_keywords:
   - "protective fu talisman"
 related:
   - "protection-ritual"
+  - "thunder-deities"
   - "talisman-burning"
   - "door-gods"
   - "protective-charms"

@@ -19,6 +19,7 @@ related:
   - "heaven-and-earth"
   - "dao"
   - "qi"
+  - "thunder-deities"
   - "kitchen-god"
   - "city-god"
   - "three-pure-ones"

@@ -21,6 +21,7 @@ related:
   - "lord-lao"
   - "three-pure-ones"
   - "celestial-bureaucracy"
+  - "thunder-deities"
   - "taoist-heavens"
   - "taoist-immortals"
   - "kitchen-god"

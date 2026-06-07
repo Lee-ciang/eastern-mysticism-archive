@@ -4,6 +4,7 @@ tradition: "Chinese folk religion, Taoist ritual systems, and household protecti
 category: "Rituals"
 related:
   - door-gods
+  - thunder-deities
   - talisman-burning
   - bagua-map
   - incense-offering

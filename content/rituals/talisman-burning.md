@@ -6,6 +6,7 @@ related:
   - dao
   - yin-yang
   - ghost-month
+  - thunder-deities
 ---
 
 # Overview
