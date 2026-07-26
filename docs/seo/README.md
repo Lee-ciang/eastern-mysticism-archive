@@ -97,6 +97,14 @@ Reports preserve:
 
 Reports are historical records. Once finalized, correct factual errors transparently rather than rewriting earlier conclusions to match later results.
 
+Completed reports:
+
+- [Yin Yang Optimization - 2026-07-26](reports/2026/07/YIN_YANG_OPTIMIZATION_2026-07-26.md)
+
+### [Technical Backlog](TECHNICAL_BACKLOG.md)
+
+The technical backlog records SEO-adjacent implementation issues that require separate engineering scope and validation. It keeps cross-site defects visible without mixing them into content-cluster optimization work.
+
 ## Recommended Reading Order
 
 ```text

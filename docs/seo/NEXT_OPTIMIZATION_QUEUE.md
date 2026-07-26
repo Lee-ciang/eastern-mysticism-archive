@@ -10,7 +10,15 @@ This queue translates current Search Console signals into an ordered optimizatio
 
 Each priority begins with a Search Console review and ends with validation plus a recorded optimization date.
 
-## Priority 1: Yin Yang
+**Current active priority:** Priority 2 - Eight Immortals
+
+## Priority 1: Yin Yang - Completed
+
+**Completed:** 2026-07-26
+**Git commit:** `4f27af2`
+**Completion report:** [Yin Yang Optimization - 2026-07-26](reports/2026/07/YIN_YANG_OPTIMIZATION_2026-07-26.md)
+
+The original tasks and completion criteria are retained below as historical context.
 
 ### Tasks
 
@@ -35,6 +43,8 @@ Each priority begins with a Search Console review and ends with validation plus 
 - Proposed diagrams have defined educational purposes.
 
 ## Priority 2: Eight Immortals
+
+**Status:** Active
 
 ### Tasks
 
