@@ -42,6 +42,8 @@ Yin and Yang balance is one of the most recognizable ideas associated with Taois
 
 The archive treats Yin and Yang as symbolic and philosophical categories. They are not simple moral labels, and they should not be reduced to good and evil. Their meaning depends on relationship, context, movement, and balance.
 
+This page focuses specifically on balance as responsive proportion and harmony. The [Yin Yang](/symbols/yin-yang) page is the concept hub; [Yin-Yang Cosmology](/taoism/yin-yang-cosmology) addresses cosmic order; [Qi and Yin Yang](/taoism/qi-and-yin-yang) addresses qi; and the [Taiji Diagram](/symbols/taiji-diagram) addresses the visual symbol.
+
 # Balance as Dynamic Relationship
 
 Balance in Taoist thought is not a frozen state. Yin and Yang are constantly transforming into one another. A day turns into night, growth becomes decline, activity gives way to rest, and stillness can prepare future movement. This is why the `yin-yang` symbol shows interdependence rather than separation.
@@ -83,6 +85,12 @@ Natural harmony is the cultural expression of this insight. It values responsive
 Yin and Yang balance appears in diagrams, healing traditions, martial arts, seasonal customs, Feng Shui, ritual language, and popular explanations of Taoist thought. It remains one of the most enduring ways people encounter Chinese cosmology.
 
 Within the Cosmology Cluster, this page functions as a bridge between `yin-yang`, `yin-yang-cosmology`, `qi-energy`, `five-elements-theory`, `heaven-earth-human`, and `natural-harmony`.
+
+# What Balance Does Not Mean
+
+Balance does not require every pair to remain numerically equal. It does not justify fixed gender roles, reduce conflict to compromise, or imply that harmful conditions should be preserved. Proportion depends on function and timing: rest can correct exhaustion, while decisive activity can correct stagnation.
+
+This responsive framing is why [Wu Wei](/taoism/wu-wei) matters. Continue to [Five Elements](/symbols/five-elements), [Bagua](/symbols/bagua), and [Natural Harmony](/taoism/natural-harmony) for adjacent models of transformation and attunement.
 
 # Editorial Disclaimer
 

@@ -29,6 +29,10 @@ The diagram is often called the Taijitu, or "Diagram of the Supreme Polarity." I
 
 Its importance comes from the way it condenses a large cosmological idea into a single image. The world is not static. Opposite qualities arise together, define each other, and transform into one another. The diagram makes this movement visible.
 
+This page focuses on the symbol itself: its form, anatomy, history, and visual meaning. For Yin and Yang as a broader principle, begin with the [Yin Yang concept hub](/symbols/yin-yang). For the sequence from non-polarity to polarity, continue to [Taiji and Wuji](/taoism/taiji-and-wuji).
+
+::knowledge-visual[taiji-anatomy]
+
 # Historical Background
 
 The Taiji concept developed within ancient Chinese metaphysical traditions and later became central to Taoist philosophy, Neo-Confucian thought, ritual symbolism, martial arts culture, and East Asian visual language.

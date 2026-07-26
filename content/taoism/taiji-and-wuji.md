@@ -31,6 +31,8 @@ Taiji and Wuji are important concepts in Chinese cosmology and Taoist-influenced
 
 Together, Taiji and Wuji help explain how Taoist cosmology describes movement from undifferentiated potential into patterned reality.
 
+This is the cluster's metaphysical sequence entry. It focuses on how non-polarity and polarity are related. The [Yin Yang](/symbols/yin-yang) hub explains the resulting relational principles, while the [Taiji Diagram](/symbols/taiji-diagram) examines their visual representation.
+
 # Historical Context
 
 The terms Taiji and Wuji appear in Chinese philosophical and cosmological traditions. They became especially important in later diagrams and commentaries that connected Taoist and Neo-Confucian thought.
@@ -58,6 +60,8 @@ This makes Taiji and Wuji foundational for understanding many archive topics, in
 # Relationship to Qi
 
 Qi can be interpreted as the dynamic movement through which polarity and transformation appear. Taiji provides a symbolic structure for differentiation, while qi gives language to movement and vitality.
+
+For the relationship between polarity and qi, see [Qi and Yin Yang](/taoism/qi-and-yin-yang). For the wider organization of world, season, direction, and order, continue to [Yin-Yang Cosmology](/taoism/yin-yang-cosmology).
 
 # Cultural Significance
 

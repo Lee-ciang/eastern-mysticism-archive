@@ -31,6 +31,8 @@ Qi and Yin Yang are two of the most important concepts in Chinese cosmology and 
 
 These concepts are often discussed together because Yin and Yang describe qualities or patterns through which qi may be interpreted. Qi is not simply one fixed substance in traditional thought. It may gather, disperse, rise, sink, move, settle, warm, cool, become dense, or become subtle. Yin and Yang provide a language for describing these changing qualities.
 
+This page explains specifically how [Yin and Yang](/symbols/yin-yang) describe the changing qualities of [Qi](/taoism/qi). It does not replace the visual analysis of the [Taiji Diagram](/symbols/taiji-diagram), the practical framing of [Yin and Yang Balance](/taoism/yin-and-yang-balance), or the world-order focus of [Yin-Yang Cosmology](/taoism/yin-yang-cosmology).
+
 # Historical Context
 
 The relationship between qi and Yin Yang developed across early Chinese philosophy, cosmology, medicine, divination, and religious traditions. Classical texts did not always use these terms in identical ways, but later systems often brought them together into a shared interpretive framework.
@@ -60,6 +62,16 @@ In a broad philosophical sense, balance means responsive relationship rather tha
 In Feng Shui, qi flow may be discussed through Yin Yang qualities. A space may be interpreted as too exposed, too enclosed, too active, too still, too bright, or too dark. These judgments belong to traditional symbolic interpretation.
 
 Symbols such as the Bagua and the Yin Yang diagram help visualize these relationships.
+
+The [Bagua](/symbols/bagua) develops broken and unbroken lines into eight trigrams, while the [Five Elements](/symbols/five-elements) adds five recurring phases of transformation. Both use Yin-Yang relationships without being identical to them.
+
+# Related Concepts
+
+- [Yin Yang](/symbols/yin-yang): the primary concept hub
+- [Taiji Diagram](/symbols/taiji-diagram): the visual symbol and its anatomy
+- [Yin and Yang Balance](/taoism/yin-and-yang-balance): balanced interaction
+- [Yin-Yang Cosmology](/taoism/yin-yang-cosmology): polarity within cosmic order
+- [Taiji and Wuji](/taoism/taiji-and-wuji): the emergence of polarity
 
 # Cultural Significance
 

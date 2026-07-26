@@ -35,6 +35,10 @@ Yin and Yang are not two substances, gods, or moral camps. They are relational c
 
 This article treats Yin-Yang as a philosophical, cosmological, and cultural system. It does not present symbolic correspondences as scientific measurements or supernatural facts. The purpose of the symbol is to make a dynamic idea visible: change occurs through relationship, alternation, and mutual transformation.
 
+This page is the archive's main concept hub for Yin and Yang. For the form and labeled parts of the familiar symbol, see the [Taiji Diagram](/symbols/taiji-diagram). For the emergence of polarity, see [Taiji and Wuji](/taoism/taiji-and-wuji). [Yin and Yang Balance](/taoism/yin-and-yang-balance), [Qi and Yin Yang](/taoism/qi-and-yin-yang), and [Yin-Yang Cosmology](/taoism/yin-yang-cosmology) develop narrower relationships.
+
+::knowledge-visual[yin-yang-core]
+
 # Historical Origins
 
 The words Yin and Yang existed before the circular symbol became standard. Early uses referred to concrete contrasts in the environment. Yin could describe the shaded side of a hill, while Yang could describe the sunny side. The same landscape contained both conditions, and their positions changed with time and light.
@@ -65,6 +69,24 @@ The small contrasting dots are especially important. The light point within the 
 
 The diagram therefore represents neither perfect symmetry nor static equality. At any moment, one tendency may be more visible than the other. Balance means responsive proportion across time, not a permanent fifty-fifty division.
 
+# Four Core Principles
+
+## Interdependence
+
+Yin and Yang make one another intelligible. Interior has meaning in relation to exterior; rest belongs to a rhythm that includes activity. Each term describes a relationship rather than an independent substance.
+
+## Dynamic Balance
+
+Balance is responsive proportion, not a motionless fifty-fifty division. The needed relationship changes with time, function, and conditions. [Yin and Yang Balance](/taoism/yin-and-yang-balance) develops this practical framing.
+
+## Cyclical Transformation
+
+Yin and Yang increase, decline, and turn toward one another. Noon moves toward evening, and the longest night marks the return of lengthening daylight.
+
+## The Seed of the Opposite
+
+No condition is absolute. The contrasting dots in the Taiji Diagram show that a dominant tendency carries the possibility and beginning of change.
+
 # Philosophical Meanings
 
 Yin-Yang thinking challenges rigid either-or categories. Apparent opposites can be mutually defining, interdependent, and capable of transformation. A valley is low because mountains rise around it. A doorway is useful because solid walls surround an opening. Silence gives shape to sound.
@@ -85,11 +107,25 @@ The Five Elements, or Five Phases, extend Yin-Yang analysis into a more detailed
 
 Each phase can also be discussed in Yin and Yang forms. The result is not a single chart that explains everything, but a layered system of correspondences. Yin-Yang provides a basic polarity, while the Five Phases describe recurring forms of transformation.
 
+# Yin Yang vs Five Elements
+
+Yin-Yang and the Five Elements answer different questions. Yin-Yang describes a fundamental polarity and the transformation of contrasting tendencies. The [Five Elements](/symbols/five-elements) describe five recurring phases—Wood, Fire, Earth, Metal, and Water—and their generating and regulating relationships.
+
+The systems are often combined but should not be collapsed. Yin-Yang can qualify each phase, while the Five Phases provide more detailed language for seasonal, directional, and process-based patterns.
+
 # Relationship with Bagua and Divination
 
 The [Bagua](/symbols/bagua) is built from broken and unbroken lines commonly interpreted as Yin and Yang. Three lines form a trigram, and two trigrams form one of the sixty-four [hexagrams](/symbols/hexagrams) used in I Ching traditions.
 
 In [I Ching divination](/symbols/i-ching-divination), lines may be stable or changing. A changing line demonstrates the central Yin-Yang principle that conditions are temporary. A broken line can become unbroken, and an unbroken line can become broken. Divination in this context is a cultural method for interpreting change, not a guarantee of prediction.
+
+::knowledge-visual[yin-yang-relationships]
+
+# Yin Yang vs Taiji Diagram
+
+Yin and Yang are abstract relational principles. The [Taiji Diagram](/symbols/taiji-diagram) is a visual model used to represent them. The concepts existed before the familiar circular design became standard and can be discussed without referring to that image.
+
+Calling the image “Yin Yang” is common, but the distinction remains useful: one is a philosophical and cosmological framework; the other is a diagram with its own history, anatomy, and visual conventions.
 
 # Heaven, Earth, and Humanity
 
@@ -122,6 +158,8 @@ One common error treats Yin as evil and Yang as good. Classical Yin-Yang theory 
 Another error assigns every woman to Yin and every man to Yang in a rigid way. Historical texts often used gendered correspondences, but the philosophical system is relational. Every person and process contains changing Yin and Yang qualities.
 
 A third error treats balance as permanent calm. Yin-Yang balance includes movement, conflict, decay, recovery, and transformation. Harmony is dynamic and may require correction, restraint, or change.
+
+Another error treats every pair of differences as Yin and Yang. A useful pairing must be relational and context-dependent; fixed labels lose the model's emphasis on transformation.
 
 # Modern Interpretations
 
@@ -163,9 +201,30 @@ Feng Shui traditions use Yin-Yang to interpret contrasts in light, movement, enc
 
 No. It is a philosophical and cultural framework. Historical religious traditions may use it in supernatural narratives, but the symbol itself is not empirical proof.
 
+## Is balance always a fifty-fifty split?
+
+No. Yin-Yang balance means an appropriate and changing relationship. The needed proportion depends on time, function, and conditions.
+
+## Are Yin and Yang fixed personality traits?
+
+No. They describe changing qualities and relationships, not permanent personality categories.
+
 # Related Concepts
 
-Key related hubs include [Qi](/taoism/qi), [Dao](/taoism/dao), [Taoist Cosmology](/taoism/taoist-cosmology), [Five Elements](/symbols/five-elements), [Bagua](/symbols/bagua), [Taiji Diagram](/symbols/taiji-diagram), [I Ching Divination](/symbols/i-ching-divination), and [Cosmology in Taoism](/taoism/cosmology-in-taoism).
+Continue according to the question being explored:
+
+- **Symbol and visual form:** [Taiji Diagram](/symbols/taiji-diagram)
+- **Origin of polarity:** [Taiji and Wuji](/taoism/taiji-and-wuji)
+- **Qi as the changing medium:** [Qi and Yin Yang](/taoism/qi-and-yin-yang)
+- **Balance and responsive proportion:** [Yin and Yang Balance](/taoism/yin-and-yang-balance)
+- **World-order implications:** [Yin-Yang Cosmology](/taoism/yin-yang-cosmology)
+- **Adjacent authority concepts:** [Qi](/taoism/qi), [Dao](/taoism/dao), [Taoist Cosmology](/taoism/taoist-cosmology), [Five Elements](/symbols/five-elements), [Bagua](/symbols/bagua), and [I Ching Divination](/symbols/i-ching-divination)
+
+# Conclusion
+
+Yin and Yang provide a language for understanding contrast without absolute separation. Their relationship is interdependent, responsive to context, and open to transformation. The Taiji Diagram makes that logic visible, while Qi, Five Elements, Bagua, and Taoist cosmology develop it in different directions.
+
+Keeping those roles distinct allows the cluster to function as a connected knowledge system rather than a collection of repeated definitions.
 
 # Editorial Disclaimer
 
