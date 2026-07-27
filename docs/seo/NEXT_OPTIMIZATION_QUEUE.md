@@ -10,7 +10,7 @@ This queue translates current Search Console signals into an ordered optimizatio
 
 Each priority begins with a Search Console review and ends with validation plus a recorded optimization date.
 
-**Current active priority:** Priority 2 - Eight Immortals
+**Current active priority:** Priority 3 - Five Elements
 
 ## Priority 1: Yin Yang - Completed
 
@@ -42,9 +42,13 @@ The original tasks and completion criteria are retained below as historical cont
 - Cluster links form clear paths among principal Yin Yang entities.
 - Proposed diagrams have defined educational purposes.
 
-## Priority 2: Eight Immortals
+## Priority 2: Eight Immortals - Completed
 
-**Status:** Active
+**Completed:** 2026-07-27
+**Git commit:** `00cb543`
+**Completion report:** [Eight Immortals Optimization - 2026-07-27](reports/2026/07/EIGHT_IMMORTALS_OPTIMIZATION_2026-07-27.md)
+
+The original tasks and completion criteria are retained below as historical context.
 
 ### Tasks
 
@@ -62,6 +66,8 @@ The original tasks and completion criteria are retained below as historical cont
 - The cluster avoids unnecessary duplication.
 
 ## Priority 3: Five Elements
+
+**Status:** Active
 
 ### Tasks
 

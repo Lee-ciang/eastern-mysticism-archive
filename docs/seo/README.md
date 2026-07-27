@@ -100,6 +100,7 @@ Reports are historical records. Once finalized, correct factual errors transpare
 Completed reports:
 
 - [Yin Yang Optimization - 2026-07-26](reports/2026/07/YIN_YANG_OPTIMIZATION_2026-07-26.md)
+- [Eight Immortals Optimization - 2026-07-27](reports/2026/07/EIGHT_IMMORTALS_OPTIMIZATION_2026-07-27.md)
 
 ### [Technical Backlog](TECHNICAL_BACKLOG.md)
 
