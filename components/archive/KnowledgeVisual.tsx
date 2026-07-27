@@ -3,7 +3,8 @@ import { useId } from "react";
 type KnowledgeVisualId =
   | "yin-yang-core"
   | "taiji-anatomy"
-  | "yin-yang-relationships";
+  | "yin-yang-relationships"
+  | "eight-immortals-attributes";
 
 type KnowledgeVisualProps = {
   id: string;
@@ -27,6 +28,11 @@ const visualMeta: Record<
     title: "Yin Yang relationship map",
     description:
       "A map connecting Yin Yang with Qi, Five Elements, Bagua, Taoist cosmology, and the Taiji and Wuji sequence.",
+  },
+  "eight-immortals-attributes": {
+    title: "Eight Immortals attribute guide",
+    description:
+      "A reference guide to objects commonly used to identify the Eight Immortals. Attributes vary across periods, regions, and individual works of art.",
   },
 };
 
@@ -377,6 +383,207 @@ function YinYangRelationshipVisual() {
   );
 }
 
+type AttributeGlyphName =
+  | "sword"
+  | "fan"
+  | "crutch"
+  | "lotus"
+  | "basket"
+  | "tablets"
+  | "flute"
+  | "drum";
+
+function AttributeGlyph({ name }: { name: AttributeGlyphName }) {
+  const commonProps = {
+    className: "h-12 w-12 text-red-300",
+    viewBox: "0 0 48 48",
+    fill: "none",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeLinecap: "round" as const,
+    strokeLinejoin: "round" as const,
+    "aria-hidden": true,
+  };
+
+  if (name === "sword") {
+    return (
+      <svg {...commonProps}>
+        <path d="M34 6 17 29" />
+        <path d="m31 9 8-3-3 8" />
+        <path d="m13 27 8 6" />
+        <path d="m16 32-6 8" />
+      </svg>
+    );
+  }
+
+  if (name === "fan") {
+    return (
+      <svg {...commonProps}>
+        <path d="M24 39 8 17c10-7 22-7 32 0L24 39Z" />
+        <path d="m24 39-8-27M24 39V10m0 29 8-27" />
+      </svg>
+    );
+  }
+
+  if (name === "crutch") {
+    return (
+      <svg {...commonProps}>
+        <path d="M14 40V12c0-4 3-7 7-7 3 0 5 2 5 5" />
+        <path d="M11 40h6" />
+        <path d="M31 20c-4 4-5 8-5 13 0 5 3 8 7 8s7-3 7-8c0-5-1-9-5-13Z" />
+        <path d="M30 20h6" />
+      </svg>
+    );
+  }
+
+  if (name === "lotus") {
+    return (
+      <svg {...commonProps}>
+        <path d="M24 36c-8-6-10-14 0-25 10 11 8 19 0 25Z" />
+        <path d="M23 36c-10 0-16-5-17-15 9 0 15 5 17 15Z" />
+        <path d="M25 36c10 0 16-5 17-15-9 0-15 5-17 15Z" />
+        <path d="M24 36v7" />
+      </svg>
+    );
+  }
+
+  if (name === "basket") {
+    return (
+      <svg {...commonProps}>
+        <path d="M8 20h32l-4 21H12L8 20Z" />
+        <path d="M15 20c0-8 4-12 9-12s9 4 9 12" />
+        <path d="M10 27h28M17 20l2 21m12-21-2 21" />
+      </svg>
+    );
+  }
+
+  if (name === "tablets") {
+    return (
+      <svg {...commonProps}>
+        <path d="M11 9h10v31H11zM27 9h10v31H27z" />
+        <path d="M14 14h4M14 19h4M30 14h4M30 19h4" />
+      </svg>
+    );
+  }
+
+  if (name === "flute") {
+    return (
+      <svg {...commonProps}>
+        <path d="m7 34 34-20" />
+        <path d="m11 37-4-7m34-12-4-7" />
+        <circle cx="18" cy="28" r="1.5" fill="currentColor" stroke="none" />
+        <circle cx="25" cy="24" r="1.5" fill="currentColor" stroke="none" />
+        <circle cx="32" cy="20" r="1.5" fill="currentColor" stroke="none" />
+      </svg>
+    );
+  }
+
+  return (
+    <svg {...commonProps}>
+      <path d="M17 9h14v30H17z" />
+      <path d="M14 9h20M14 39h20" />
+      <path d="m35 14 7-5M35 34l7 5" />
+      <circle cx="24" cy="24" r="4" />
+    </svg>
+  );
+}
+
+function ImmortalAttributeCard({
+  name,
+  chinese,
+  attribute,
+  note,
+  glyph,
+}: {
+  name: string;
+  chinese: string;
+  attribute: string;
+  note: string;
+  glyph: AttributeGlyphName;
+}) {
+  return (
+    <div className="grid min-h-52 grid-cols-[3rem_1fr] gap-3 border border-neutral-700 bg-neutral-900 p-4 sm:block">
+      <AttributeGlyph name={glyph} />
+      <div className="sm:mt-4">
+        <h3 className="text-base font-semibold text-neutral-100">
+          {name} <span className="font-normal text-neutral-400">{chinese}</span>
+        </h3>
+        <p className="mt-2 text-sm font-semibold text-red-300">{attribute}</p>
+        <p className="mt-2 text-sm leading-6 text-neutral-400">{note}</p>
+      </div>
+    </div>
+  );
+}
+
+function EightImmortalsAttributesVisual() {
+  return (
+    <VisualFrame id="eight-immortals-attributes">
+      <div className="mb-5 border-l-2 border-red-500 px-4 text-sm leading-6 text-neutral-300">
+        These objects are common iconographic identifiers, not universal fixed
+        rules. Artists may substitute, combine, or omit attributes.
+      </div>
+      <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+        <ImmortalAttributeCard
+          name="Lu Dongbin"
+          chinese="呂洞賓"
+          attribute="Sword"
+          note="Commonly depicted as a scholar; the sword may suggest discernment or protective authority."
+          glyph="sword"
+        />
+        <ImmortalAttributeCard
+          name="Zhongli Quan"
+          chinese="鍾離權"
+          attribute="Fan"
+          note="Often shown as a senior figure; legends associate the fan with transformation or revival."
+          glyph="fan"
+        />
+        <ImmortalAttributeCard
+          name="Li Tieguai"
+          chinese="李鐵拐"
+          attribute="Iron crutch and gourd"
+          note="His distinctive objects accompany stories about changed appearance, compassion, and transcendence."
+          glyph="crutch"
+        />
+        <ImmortalAttributeCard
+          name="He Xiangu"
+          chinese="何仙姑"
+          attribute="Lotus or flower"
+          note="Floral and auspicious objects vary; later art often connects them with purity and attainment."
+          glyph="lotus"
+        />
+        <ImmortalAttributeCard
+          name="Lan Caihe"
+          chinese="藍采和"
+          attribute="Flower basket"
+          note="The wandering figure varies in age, dress, and gender presentation across traditions."
+          glyph="basket"
+        />
+        <ImmortalAttributeCard
+          name="Cao Guojiu"
+          chinese="曹國舅"
+          attribute="Court tablets or castanets"
+          note="Court dress and paired objects distinguish this figure associated with rank and reform."
+          glyph="tablets"
+        />
+        <ImmortalAttributeCard
+          name="Han Xiangzi"
+          chinese="韓湘子"
+          attribute="Flute"
+          note="The flute identifies a figure often associated with music, cultivated refinement, and nature."
+          glyph="flute"
+        />
+        <ImmortalAttributeCard
+          name="Zhang Guolao"
+          chinese="張果老"
+          attribute="Bamboo instrument"
+          note="A tube drum is common; the backward-riding donkey is another widely recognized motif."
+          glyph="drum"
+        />
+      </div>
+    </VisualFrame>
+  );
+}
+
 export default function KnowledgeVisual({ id }: KnowledgeVisualProps) {
   if (id === "yin-yang-core") {
     return <YinYangCoreVisual />;
@@ -388,6 +595,10 @@ export default function KnowledgeVisual({ id }: KnowledgeVisualProps) {
 
   if (id === "yin-yang-relationships") {
     return <YinYangRelationshipVisual />;
+  }
+
+  if (id === "eight-immortals-attributes") {
+    return <EightImmortalsAttributesVisual />;
   }
 
   return null;
