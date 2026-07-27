@@ -91,11 +91,15 @@ Correspondences allowed thinkers to connect observations from different domains.
 
 The generating cycle, called Sheng, describes one phase supporting or giving rise to another. Wood feeds Fire. Fire produces ash associated with Earth. Earth bears Metal. Metal was traditionally said to support or collect Water. Water nourishes Wood.
 
+::knowledge-visual[five-elements-generating-cycle]
+
 The [Generating Cycle](/symbols/generating-cycle) is often drawn as a pentagonal or circular sequence. It represents support and continuity, not a literal laboratory process. In cultural interpretation, generation can describe resources, succession, nourishment, and development.
 
 # The Controlling Cycle
 
 The controlling or overcoming cycle, called Ke, describes regulation. Wood penetrates Earth. Earth contains Water. Water restrains Fire. Fire melts Metal. Metal cuts Wood.
+
+::knowledge-visual[five-elements-overcoming-cycle]
 
 The [Overcoming Cycle](/symbols/overcoming-cycle) is not inherently negative. Control can prevent excess and maintain proportion. A system with only generation would expand without limits. Regulation gives structure to growth.
 
@@ -173,6 +177,24 @@ There is no single correspondence chart accepted identically across every period
 
 Having a zodiac element does not scientifically determine personality, compatibility, health, or financial outcomes.
 
+# Five Elements vs Five Phases
+
+Five Elements and Five Phases name the same Chinese framework, but the translations emphasize different features. "Elements" remains useful because readers recognize it and because Wood, Fire, Earth, Metal, and Water can refer to materials in particular contexts. "Phases" better conveys the action-oriented sense of *xing* and the system's concern with movement, succession, and relation.
+
+Neither English term is perfect in every passage. The practical editorial rule is to retain Five Elements for discoverability, introduce Five Phases early, and explain what the categories are doing in context. A ritual object may use an actual material, while a seasonal chart may use the same category as a pattern of time.
+
+# Generating Cycle vs Overcoming Cycle
+
+The two cycles answer different questions. The generating cycle asks what supports, nourishes, or succeeds a phase. The overcoming cycle asks what restrains, regulates, or sets a boundary for it. One describes continuity; the other describes proportion.
+
+Neither sequence is a ranking. Wood does not permanently defeat Earth, and Water is not inherently superior to Fire. Each phase supports one relation, regulates another, receives support, and is itself regulated. This reciprocity is why no phase is universally strongest.
+
+# Correspondence Is Not Identity
+
+A phase correspondence links things because a tradition perceived a meaningful resemblance in movement, position, timing, or function. It does not make those things identical. East, spring, green, and Wood may be coordinated in a widely used scheme, but east is not literally made of wood and every green object does not automatically have the same ritual or spatial meaning.
+
+Readers should therefore ask three questions when encountering a correspondence table: Which text or school uses it? What purpose does the table serve? Is the relationship being presented as symbolic analogy, technical classification, or material instruction? These questions prevent later summaries from being mistaken for timeless universal doctrine.
+
 # Frequently Asked Questions
 
 ## What are the Five Elements?
@@ -191,6 +213,10 @@ It is a sequence of support: Wood feeds Fire, Fire produces Earth, Earth bears M
 
 It is a sequence of regulation: Wood acts on Earth, Earth contains Water, Water restrains Fire, Fire acts on Metal, and Metal cuts Wood.
 
+## Is one phase stronger than another?
+
+No phase is always stronger. Wu Xing describes changing relationships, so advantage depends on sequence, timing, quantity, and context. Every phase both affects and is affected by others.
+
 ## How are the Five Elements related to Yin-Yang?
 
 Yin-Yang describes relational polarity. The Five Phases describe five recurring modes of change. Later traditions combine both systems.
@@ -207,9 +233,21 @@ Yes. Feng Shui traditions use phase correspondences to interpret directions, for
 
 They are historically important cultural and philosophical categories, not modern scientific elements or universal empirical laws.
 
+## Are Five Elements correspondences universal?
+
+No. Widely repeated associations exist, but texts, periods, regions, and technical traditions may organize or emphasize them differently.
+
+## What does each phase represent?
+
+In a concise process-based reading, Wood extends, Fire rises and radiates, Earth centers and mediates, Metal contracts and refines, and Water descends and stores. The individual phase pages explain how these patterns change across symbolic contexts.
+
 # Related Concepts
 
-Key related hubs include [Yin-Yang](/symbols/yin-yang), [Bagua](/symbols/bagua), [Qi](/taoism/qi), [Dao](/taoism/dao), [Taoist Cosmology](/taoism/taoist-cosmology), [Feng Shui Five Elements](/feng-shui/five-elements-in-feng-shui), and [Five Elements Theory](/taoism/five-elements-theory).
+For the phases themselves, continue to [Wood](/symbols/wood-element), [Fire](/symbols/fire-element), [Earth](/symbols/earth-element), [Metal](/symbols/metal-element), and [Water](/symbols/water-element). For relational structure, use the [Generating Cycle](/symbols/generating-cycle) and [Overcoming Cycle](/symbols/overcoming-cycle).
+
+For distinct interpretive contexts, read [Five Elements Theory](/taoism/five-elements-theory) for intellectual history, [Five Elements Symbolism](/symbols/five-elements-symbolism) for iconography and correspondences, [Five Elements and Qi](/taoism/five-elements-and-qi) for phase-based classification of qi, and [Qi and Five Elements](/taoism/qi-and-five-elements) for a qi-centered account.
+
+Cross-cluster guides include [Bagua and Five Elements](/symbols/bagua-and-five-elements), [Five Elements and Bagua](/feng-shui/five-elements-and-bagua), [Five Elements in Feng Shui](/feng-shui/five-elements-in-feng-shui), and [Five Elements and Zodiac](/folk-beliefs/five-elements-and-zodiac). Adjacent authority hubs include [Yin-Yang](/symbols/yin-yang), [Bagua](/symbols/bagua), [Qi](/taoism/qi), [Dao](/taoism/dao), and [Taoist Cosmology](/taoism/taoist-cosmology).
 
 # Editorial Disclaimer
 

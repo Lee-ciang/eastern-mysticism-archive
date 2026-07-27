@@ -4,7 +4,9 @@ type KnowledgeVisualId =
   | "yin-yang-core"
   | "taiji-anatomy"
   | "yin-yang-relationships"
-  | "eight-immortals-attributes";
+  | "eight-immortals-attributes"
+  | "five-elements-generating-cycle"
+  | "five-elements-overcoming-cycle";
 
 type KnowledgeVisualProps = {
   id: string;
@@ -33,6 +35,16 @@ const visualMeta: Record<
     title: "Eight Immortals attribute guide",
     description:
       "A reference guide to objects commonly used to identify the Eight Immortals. Attributes vary across periods, regions, and individual works of art.",
+  },
+  "five-elements-generating-cycle": {
+    title: "Five Phases generating cycle",
+    description:
+      "The generating cycle presents a traditional sequence of support: Wood to Fire, Fire to Earth, Earth to Metal, Metal to Water, and Water back to Wood.",
+  },
+  "five-elements-overcoming-cycle": {
+    title: "Five Phases overcoming cycle",
+    description:
+      "The overcoming cycle presents regulation rather than random conflict: Wood regulates Earth, Earth regulates Water, Water regulates Fire, Fire regulates Metal, and Metal regulates Wood.",
   },
 };
 
@@ -584,6 +596,117 @@ function EightImmortalsAttributesVisual() {
   );
 }
 
+type PhaseName = "Wood" | "Fire" | "Earth" | "Metal" | "Water";
+
+const phaseStyles: Record<
+  PhaseName,
+  { accent: string; movement: string }
+> = {
+  Wood: {
+    accent: "border-emerald-700 text-emerald-300",
+    movement: "growth and extension",
+  },
+  Fire: {
+    accent: "border-red-700 text-red-300",
+    movement: "heat and outward expression",
+  },
+  Earth: {
+    accent: "border-amber-700 text-amber-300",
+    movement: "centering and mediation",
+  },
+  Metal: {
+    accent: "border-neutral-500 text-neutral-200",
+    movement: "contraction and refinement",
+  },
+  Water: {
+    accent: "border-sky-700 text-sky-300",
+    movement: "descent and storage",
+  },
+};
+
+function PhaseSequence({
+  phases,
+  relation,
+}: {
+  phases: PhaseName[];
+  relation: "supports" | "regulates";
+}) {
+  return (
+    <ol
+      className="grid gap-2 lg:grid-cols-[1fr_auto_1fr_auto_1fr_auto_1fr_auto_1fr]"
+      aria-label={`Five Phases ${relation} sequence`}
+    >
+      {phases.map((phase, index) => (
+        <li
+          key={phase}
+          className="contents"
+        >
+          <div
+            className={`min-h-28 border bg-neutral-900 p-4 ${phaseStyles[phase].accent}`}
+          >
+            <p className="text-xs font-semibold uppercase text-neutral-500">
+              Step {index + 1}
+            </p>
+            <h3 className="mt-2 text-lg font-semibold">{phase}</h3>
+            <p className="mt-2 text-sm leading-6 text-neutral-400">
+              {phaseStyles[phase].movement}
+            </p>
+          </div>
+          {index < phases.length - 1 ? (
+            <div
+              className={`flex min-h-8 items-center justify-center text-xs font-semibold uppercase lg:min-h-28 ${
+                relation === "supports"
+                  ? "text-emerald-300"
+                  : "text-amber-300"
+              }`}
+              aria-hidden="true"
+            >
+              <span className="lg:hidden">{relation} next</span>
+              <span className="hidden text-xl lg:inline">→</span>
+            </div>
+          ) : null}
+        </li>
+      ))}
+    </ol>
+  );
+}
+
+function FiveElementsGeneratingCycleVisual() {
+  return (
+    <VisualFrame id="five-elements-generating-cycle">
+      <div className="mb-5 border-l-2 border-emerald-600 px-4 text-sm leading-6 text-neutral-300">
+        Generation means symbolic support or succession. It does not describe a
+        universal material or scientific cause.
+      </div>
+      <PhaseSequence
+        phases={["Wood", "Fire", "Earth", "Metal", "Water"]}
+        relation="supports"
+      />
+      <p className="mt-5 text-center text-sm leading-6 text-neutral-400">
+        Water completes the sequence by supporting renewed Wood growth.
+      </p>
+    </VisualFrame>
+  );
+}
+
+function FiveElementsOvercomingCycleVisual() {
+  return (
+    <VisualFrame id="five-elements-overcoming-cycle">
+      <div className="mb-5 border-l-2 border-amber-600 px-4 text-sm leading-6 text-neutral-300">
+        Overcoming can also be translated as controlling, restraining, or
+        regulating. The sequence describes limits within a connected system.
+      </div>
+      <PhaseSequence
+        phases={["Wood", "Earth", "Water", "Fire", "Metal"]}
+        relation="regulates"
+      />
+      <p className="mt-5 text-center text-sm leading-6 text-neutral-400">
+        Metal completes the sequence by regulating Wood growth.
+      </p>
+    </VisualFrame>
+  );
+}
+
 export default function KnowledgeVisual({ id }: KnowledgeVisualProps) {
   if (id === "yin-yang-core") {
     return <YinYangCoreVisual />;
@@ -599,6 +722,14 @@ export default function KnowledgeVisual({ id }: KnowledgeVisualProps) {
 
   if (id === "eight-immortals-attributes") {
     return <EightImmortalsAttributesVisual />;
+  }
+
+  if (id === "five-elements-generating-cycle") {
+    return <FiveElementsGeneratingCycleVisual />;
+  }
+
+  if (id === "five-elements-overcoming-cycle") {
+    return <FiveElementsOvercomingCycleVisual />;
   }
 
   return null;

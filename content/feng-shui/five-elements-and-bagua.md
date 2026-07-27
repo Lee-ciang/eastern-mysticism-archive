@@ -34,6 +34,8 @@ The [Five Elements](/symbols/five-elements) describe five recurring modes of tra
 
 This page explains how later traditions coordinated the two systems without pretending that there was one universal chart. It treats Feng Shui as a historical, cultural, spatial, and symbolic practice. Elemental or directional interpretations do not guarantee wealth, health, luck, or any other outcome.
 
+Its scope is applied Feng Shui interpretation: orientation, sectors, landform, material, time, and school-specific method. The companion symbols page [Bagua and Five Elements](/symbols/bagua-and-five-elements) focuses on the conceptual mapping between trigrams and phases. The two routes therefore support different reader intents.
+
 # Historical Context
 
 The roots of the Bagua are closely connected with the *Zhouyi*, later known as the *I Ching* or Book of Changes. Its broken and unbroken lines formed trigrams and hexagrams used in divination. Commentarial traditions increasingly interpreted the figures as models of natural and ethical transformation.
@@ -183,6 +185,10 @@ Bagua organizes eight patterns and directional positions. Qi describes vitality,
 ## Is this system exclusively Taoist?
 
 No. Taoist traditions use these concepts, but they also developed across divination, Confucian philosophy, medicine, state cosmology, ritual, and geomancy.
+
+## How is this page different from Bagua and Five Elements?
+
+This page focuses on Feng Shui application and spatial interpretation. [Bagua and Five Elements](/symbols/bagua-and-five-elements) focuses on the symbolic and conceptual correspondence between the two systems.
 
 # Editorial Disclaimer
 
