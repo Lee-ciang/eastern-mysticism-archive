@@ -84,11 +84,11 @@ Because associations vary by school, the archive treats them carefully. The goal
 
 # Relationship to the Lo Shu
 
-Some Bagua arrangements are discussed alongside the [Lo Shu Square](/symbols/lo-shu-square) because both systems organize space through symbolic structure. The Lo Shu contributes numerical patterning, while the Bagua contributes trigram symbolism.
+Some Bagua arrangements are discussed alongside the [Lo Shu Square](/symbols/lo-shu-square) because both systems organize space through symbolic structure. They remain distinct objects: the Lo Shu is a three-by-three number square, while the Bagua consists of eight trigrams formed from broken and unbroken lines.
 
-The Lo Shu Square is a three-by-three numerical diagram in which numbers are arranged into a balanced pattern. In later traditions, Lo Shu patterns became connected with directions, stars, timing, and spatial interpretation. Bagua mapping can draw on this numerical background.
+In the standard Lo Shu arrangement, the numbers one through nine occupy a balanced pattern with 5 at the center and every row, column, and main diagonal totaling 15. Later traditions connected these number positions with directions, stars, timing, and spatial interpretation. Bagua mapping can draw on this numerical background without becoming identical to it.
 
-The relationship between Lo Shu and Bagua is especially important in Later Heaven arrangements and some Feng Shui systems. The square provides a grid-like spatial logic, while the Bagua provides symbolic images and trigram meanings.
+The relationship between Lo Shu and Bagua is especially important in [Later Heaven Bagua](/symbols/later-heaven-bagua) correlations and some Feng Shui systems. The square provides a grid-like spatial logic, while the Bagua provides symbolic images and trigram meanings. Orientation conventions vary: a traditional south-up diagram and a modern north-up plan may place symbols differently on the page. No single Lo Shu overlay should therefore be presented as a universal room-placement method for every Feng Shui school.
 
 # Relationship to Luopan and Compass Feng Shui
 
@@ -170,7 +170,7 @@ The Bagua is the symbolic system of eight trigrams. The Bagua Map applies that s
 
 ## How is the Lo Shu Square involved?
 
-The Lo Shu Square contributes numerical and grid-like spatial patterning that became linked to some Bagua and Feng Shui systems.
+The Lo Shu Square contributes numerical and grid-like spatial patterning that later became linked to some Bagua and Feng Shui systems. It is a number square, not another name for the Bagua, and its application varies by school and orientation.
 
 ## Does a Bagua Map guarantee results?
 

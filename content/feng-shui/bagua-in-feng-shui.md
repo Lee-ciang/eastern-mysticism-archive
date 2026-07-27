@@ -34,7 +34,7 @@ The Bagua is one of the best-known Feng Shui concepts, but it is also one of the
 
 # Historical Context
 
-Feng Shui developed from older Chinese concerns with landscape, orientation, burial sites, settlement, qi, and the relationship between human life and the surrounding environment. Over time, cosmological diagrams such as the Bagua and the Lo Shu Square became important interpretive tools.
+Feng Shui developed from older Chinese concerns with landscape, orientation, burial sites, settlement, qi, and the relationship between human life and the surrounding environment. Over time, cosmological diagrams such as the Bagua and the [Lo Shu Square](/symbols/lo-shu-square) became important interpretive tools. Their later coordination should not be projected backward as one complete, unchanged system present at every stage of Feng Shui history.
 
 The Bagua brought trigram symbolism into spatial practice. It allowed directions and places to be discussed through a structured set of correspondences.
 
@@ -49,6 +49,12 @@ Classical compass-based Feng Shui and modern simplified Bagua methods may use di
 The Later Heaven Bagua is especially important in Feng Shui because it emphasizes movement, direction, and the manifest world. It is more directly connected with spatial interpretation than the Early Heaven arrangement.
 
 However, Early Heaven symbolism may still appear in protective objects, diagrams, or cosmological discussions.
+
+# Relationship to the Lo Shu
+
+The Lo Shu and Bagua are related but distinct. The Lo Shu is a nine-position number square with 5 at the center; the Bagua is a set of eight trigram configurations. Some later Feng Shui systems align Lo Shu numbers with Later Heaven trigrams, directions, phases, or time cycles.
+
+These applications vary by school. The Lo Shu is not a universal single-step room-placement chart, and compass-based methods should not be confused with modern entrance-aligned Bagua maps. Diagram orientation must also be stated because traditional and modern page conventions may place north and south differently.
 
 # Relationship to Qi Flow
 

@@ -71,6 +71,12 @@ I Ching divination intersects with `dao`, `cosmology-in-taoism`, `qi-energy`, `f
 
 The I Ching belongs to this larger archive because it turns cosmology into a practical language of interpretation.
 
+# Relationship to the Lo Shu
+
+The [Lo Shu Square](/symbols/lo-shu-square) is a three-by-three numerical arrangement, whereas I Ching divination is organized around trigrams, hexagrams, changing lines, and a transmitted textual tradition. They are not two names for the same system.
+
+Later correlative traditions could align Lo Shu numbers and positions with trigrams, directions, phases, or calendrical cycles. Those connections are historically important, but a Lo Shu grid by itself is not an I Ching hexagram or a complete consultation method.
+
 # Related Links
 
 Core cluster pages: `hexagrams`, `trigrams`, `changing-lines`, `divination-methods`, `casting-coins`, `yarrow-stalk-method`, `king-wen-sequence`, `eight-trigrams-divination`, and `oracle-traditions`.

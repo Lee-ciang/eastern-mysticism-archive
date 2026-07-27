@@ -51,9 +51,11 @@ For example, the arrangement may connect specific trigrams with north, south, ea
 
 # Relationship to the Lo Shu Square
 
-The Later Heaven Bagua is often discussed with the Lo Shu Square because both organize symbolic meaning through position. The Lo Shu provides a numerical structure, while the Bagua provides trigram symbolism.
+The Later Heaven Bagua is often discussed with the [Lo Shu Square](/symbols/lo-shu-square) because both organize symbolic meaning through position. They are not the same diagram. The Lo Shu is a three-by-three number square with 5 at its center, while the Later Heaven Bagua is an arrangement of eight trigrams made from broken and unbroken lines.
 
-Together, they helped shape later systems of spatial and temporal interpretation. Their relationship is especially important for understanding why Bagua diagrams appear in Feng Shui contexts.
+Later correlative systems align Lo Shu numbers with Later Heaven trigrams, directions, phases, and time cycles. Together, these coordinated systems helped shape spatial and temporal interpretation, but a particular mapping should be identified rather than assumed to be universal.
+
+Orientation matters as well. A traditional diagram may place south at the top, while a modern map may place north at the top. A rotated presentation can preserve the relationships within an arrangement even though the page positions look different.
 
 # Feng Shui Context
 

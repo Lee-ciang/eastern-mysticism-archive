@@ -6,7 +6,8 @@ type KnowledgeVisualId =
   | "yin-yang-relationships"
   | "eight-immortals-attributes"
   | "five-elements-generating-cycle"
-  | "five-elements-overcoming-cycle";
+  | "five-elements-overcoming-cycle"
+  | "lo-shu-square";
 
 type KnowledgeVisualProps = {
   id: string;
@@ -45,6 +46,11 @@ const visualMeta: Record<
     title: "Five Phases overcoming cycle",
     description:
       "The overcoming cycle presents regulation rather than random conflict: Wood regulates Earth, Earth regulates Water, Water regulates Fire, Fire regulates Metal, and Metal regulates Wood.",
+  },
+  "lo-shu-square": {
+    title: "The standard Lo Shu Square",
+    description:
+      "The standard number arrangement is shown without imposing a map orientation. Every row, column, and main diagonal totals 15, and 5 occupies the center.",
   },
 };
 
@@ -707,6 +713,100 @@ function FiveElementsOvercomingCycleVisual() {
   );
 }
 
+const loShuNumbers = [
+  [4, 9, 2],
+  [3, 5, 7],
+  [8, 1, 6],
+];
+
+const loShuSums = [
+  {
+    label: "Rows",
+    lines: ["4 + 9 + 2", "3 + 5 + 7", "8 + 1 + 6"],
+  },
+  {
+    label: "Columns",
+    lines: ["4 + 3 + 8", "9 + 5 + 1", "2 + 7 + 6"],
+  },
+  {
+    label: "Diagonals",
+    lines: ["4 + 5 + 6", "2 + 5 + 8"],
+  },
+];
+
+function LoShuSquareVisual() {
+  return (
+    <VisualFrame id="lo-shu-square">
+      <div className="grid items-start gap-7 lg:grid-cols-[minmax(0,22rem)_1fr]">
+        <div>
+          <div
+            className="grid aspect-square grid-cols-3 border border-neutral-500 bg-neutral-700"
+            role="img"
+            aria-label="Lo Shu Square arranged in three rows: 4, 9, 2; 3, 5, 7; and 8, 1, 6. The center number is 5."
+          >
+            {loShuNumbers.flat().map((number, index) => {
+              const isCenter = number === 5;
+
+              return (
+                <div
+                  key={`${number}-${index}`}
+                  className={`flex items-center justify-center border border-neutral-700 text-3xl font-semibold sm:text-4xl ${
+                    isCenter
+                      ? "bg-red-950 text-red-200"
+                      : "bg-neutral-900 text-neutral-100"
+                  }`}
+                >
+                  <span>{number}</span>
+                  {isCenter ? (
+                    <span className="sr-only">, center</span>
+                  ) : null}
+                </div>
+              );
+            })}
+          </div>
+          <p className="mt-3 text-center text-sm text-neutral-400">
+            Standard arrangement; rotations and reflections preserve the
+            mathematical property.
+          </p>
+        </div>
+
+        <div>
+          <div className="border-l-2 border-red-500 px-4">
+            <p className="text-sm font-semibold text-neutral-100">
+              Eight straight lines, one constant total
+            </p>
+            <p className="mt-1 text-sm leading-6 text-neutral-400">
+              Three rows, three columns, and two main diagonals each add to 15.
+            </p>
+          </div>
+          <div className="mt-5 grid gap-3 sm:grid-cols-3 lg:grid-cols-1 xl:grid-cols-3">
+            {loShuSums.map((group) => (
+              <div
+                key={group.label}
+                className="border border-neutral-700 bg-neutral-900 p-4"
+              >
+                <h3 className="text-sm font-semibold text-red-300">
+                  {group.label}
+                </h3>
+                <ul className="mt-3 space-y-2">
+                  {group.lines.map((line) => (
+                    <li
+                      key={line}
+                      className="text-sm tabular-nums text-neutral-300"
+                    >
+                      {line} = <strong className="text-neutral-100">15</strong>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </VisualFrame>
+  );
+}
+
 export default function KnowledgeVisual({ id }: KnowledgeVisualProps) {
   if (id === "yin-yang-core") {
     return <YinYangCoreVisual />;
@@ -730,6 +830,10 @@ export default function KnowledgeVisual({ id }: KnowledgeVisualProps) {
 
   if (id === "five-elements-overcoming-cycle") {
     return <FiveElementsOvercomingCycleVisual />;
+  }
+
+  if (id === "lo-shu-square") {
+    return <LoShuSquareVisual />;
   }
 
   return null;

@@ -110,7 +110,7 @@ The instrument does not measure elemental substances or qi directly. It measures
 
 The [Lo Shu Square](/symbols/lo-shu-square) is a three-by-three numerical arrangement in which every row, column, and diagonal totals fifteen. Later traditions connect its nine positions with the center and eight directions.
 
-When Lo Shu numbers are aligned with the Later Heaven Bagua, trigrams, phases, and directions form a compact cosmological map. Some Feng Shui schools use this structure to discuss changes across periods or the movement of numbered patterns.
+When Lo Shu numbers are aligned with the [Later Heaven Bagua](/symbols/later-heaven-bagua), trigrams, phases, and directions form a compact cosmological map. The diagrams are correlated rather than identical: Lo Shu supplies nine number positions, while Bagua supplies eight trigram configurations. Some Feng Shui schools use this combined structure to discuss changes across periods or the movement of numbered patterns, but the mapping is not a universal method shared unchanged by every school.
 
 # Feng Shui Use
 

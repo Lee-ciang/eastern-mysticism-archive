@@ -53,9 +53,9 @@ Because of this difference, Bagua directions should always be understood in rela
 
 # Relationship to the Lo Shu Square
 
-The Lo Shu Square contributes numerical order to directional interpretation. In many traditions, numbers, directions, trigrams, and phases are layered together to form a symbolic system.
+The [Lo Shu Square](/symbols/lo-shu-square) contributes numerical order to some later directional interpretations, but it is not itself a Bagua. The Lo Shu contains nine number positions, including a center; the Bagua contains eight trigrams arranged around a center.
 
-This helps explain why Bagua directions are not isolated labels. They belong to a wider network of correspondences.
+Later systems may align Lo Shu numbers, Later Heaven trigrams, compass directions, and Five Phase associations. This helps explain why Bagua directions are not isolated labels, but the exact mapping and page orientation must be identified. Traditional south-up diagrams and modern north-up diagrams can look different without necessarily representing contradictory internal relationships.
 
 # Feng Shui Use
 
