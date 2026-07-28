@@ -10,7 +10,9 @@ This queue translates current Search Console signals into an ordered optimizatio
 
 Each priority begins with a Search Console review and ends with validation plus a recorded optimization date.
 
-**Current active priority:** Priority 5 - Ancestor Worship
+**Current active state:** Observation and evidence gathering
+
+Priorities 1 through 5 are complete. No Priority 6 has been approved. The next optimization priority must be selected from Search Console evidence, indexing behavior, query breadth, and the [SEO decision rules](SEO_DECISION_RULES.md).
 
 ## Priority 1: Yin Yang - Completed
 
@@ -109,9 +111,13 @@ The original tasks and completion criteria are retained below as historical cont
 - Diagram labels and number placement are accurate.
 - Related concepts are linked without merging distinct traditions.
 
-## Priority 5: Ancestor Worship
+## Priority 5: Ancestor Worship - Completed
 
-**Status:** Active
+**Completed:** 2026-07-28
+**Git commit:** `5dd7733`
+**Completion report:** [Ancestor Worship Optimization - 2026-07-28](reports/2026/07/ANCESTOR_WORSHIP_OPTIMIZATION_2026-07-28.md)
+
+The original tasks and completion criteria are retained below as historical context.
 
 ### Tasks
 

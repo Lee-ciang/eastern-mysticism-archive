@@ -103,6 +103,7 @@ Completed reports:
 - [Eight Immortals Optimization - 2026-07-27](reports/2026/07/EIGHT_IMMORTALS_OPTIMIZATION_2026-07-27.md)
 - [Five Elements Optimization - 2026-07-27](reports/2026/07/FIVE_ELEMENTS_OPTIMIZATION_2026-07-27.md)
 - [Lo Shu Optimization - 2026-07-27](reports/2026/07/LO_SHU_OPTIMIZATION_2026-07-27.md)
+- [Ancestor Worship Optimization - 2026-07-28](reports/2026/07/ANCESTOR_WORSHIP_OPTIMIZATION_2026-07-28.md)
 
 ### [Technical Backlog](TECHNICAL_BACKLOG.md)
 
