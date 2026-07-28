@@ -7,7 +7,8 @@ type KnowledgeVisualId =
   | "eight-immortals-attributes"
   | "five-elements-generating-cycle"
   | "five-elements-overcoming-cycle"
-  | "lo-shu-square";
+  | "lo-shu-square"
+  | "ancestor-veneration-contexts";
 
 type KnowledgeVisualProps = {
   id: string;
@@ -51,6 +52,11 @@ const visualMeta: Record<
     title: "The standard Lo Shu Square",
     description:
       "The standard number arrangement is shown without imposing a map orientation. Every row, column, and main diagonal totals 15, and 5 occupies the center.",
+  },
+  "ancestor-veneration-contexts": {
+    title: "Contexts of ancestor veneration",
+    description:
+      "Ancestor veneration connects family and lineage memory with several settings and occasions. The relative importance of each context varies by family, region, religion, migration history, and historical period.",
   },
 };
 
@@ -807,6 +813,82 @@ function LoShuSquareVisual() {
   );
 }
 
+const ancestorContexts = [
+  {
+    label: "Household",
+    detail:
+      "Domestic remembrance before tablets, photographs, or a family altar.",
+  },
+  {
+    label: "Ancestral hall",
+    detail:
+      "Collective lineage rites, genealogy, meetings, and communal memory.",
+  },
+  {
+    label: "Grave or tomb",
+    detail:
+      "Burial-site care, visitation, cleaning, offerings, and remembrance.",
+  },
+  {
+    label: "Festival calendar",
+    detail:
+      "Seasonal occasions such as Qingming and other family memorial dates.",
+  },
+  {
+    label: "Funeral and memorial rites",
+    detail:
+      "Mourning, transition, immediate commemoration, and later anniversaries.",
+  },
+  {
+    label: "Family and lineage memory",
+    detail:
+      "Names, stories, ethical obligations, genealogy, and shared identity.",
+  },
+];
+
+function AncestorVenerationContextsVisual() {
+  return (
+    <VisualFrame id="ancestor-veneration-contexts">
+      <div className="border-l-2 border-red-500 px-4">
+        <p className="text-sm font-semibold text-neutral-100">
+          One tradition, several social and ritual settings
+        </p>
+        <p className="mt-1 text-sm leading-6 text-neutral-400">
+          No single setting, object, festival, or ritual represents every
+          family or community.
+        </p>
+      </div>
+      <div
+        className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3"
+        role="list"
+        aria-label="Six major contexts of ancestor veneration"
+      >
+        {ancestorContexts.map((context, index) => (
+          <div
+            key={context.label}
+            className="min-h-40 border border-neutral-700 bg-neutral-900 p-4"
+            role="listitem"
+          >
+            <span className="text-xs font-semibold uppercase text-red-400">
+              Context {index + 1}
+            </span>
+            <h3 className="mt-3 text-base font-semibold text-neutral-100">
+              {context.label}
+            </h3>
+            <p className="mt-2 text-sm leading-6 text-neutral-400">
+              {context.detail}
+            </p>
+          </div>
+        ))}
+      </div>
+      <p className="mt-5 text-center text-sm leading-6 text-neutral-400">
+        These contexts can overlap, but household, lineage, graveside,
+        festival, and funerary rites remain distinct in purpose and scale.
+      </p>
+    </VisualFrame>
+  );
+}
+
 export default function KnowledgeVisual({ id }: KnowledgeVisualProps) {
   if (id === "yin-yang-core") {
     return <YinYangCoreVisual />;
@@ -834,6 +916,10 @@ export default function KnowledgeVisual({ id }: KnowledgeVisualProps) {
 
   if (id === "lo-shu-square") {
     return <LoShuSquareVisual />;
+  }
+
+  if (id === "ancestor-veneration-contexts") {
+    return <AncestorVenerationContextsVisual />;
   }
 
   return null;

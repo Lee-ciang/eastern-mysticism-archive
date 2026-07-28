@@ -26,13 +26,13 @@ last_reviewed: "2026-05-29"
 
 # Overview
 
-Filial piety, often associated with the Chinese term xiao, is a major ethical concept connected to respect for parents, elders, and ancestors. In the context of ancestor veneration, filial piety helps explain why remembrance and ritual care for the dead became central to family life.
+Filial piety, often associated with the Chinese term *xiao*, is a major ethical concept connected to care for parents, respect for elders, responsible conduct, and remembrance of ancestors. In the context of [ancestor veneration](/folk-beliefs/ancestor-veneration), it helps explain why ritual care for the dead acquired moral importance.
 
 This entry treats filial piety as a cultural, historical, and ethical idea rather than a single fixed rule.
 
 # Historical Context
 
-Filial piety became especially important in Confucian family ethics, but it also shaped folk religion, ancestor ritual, lineage organization, and social values more broadly. It provided a moral language for relationships between generations.
+Filial piety became especially important in Confucian family ethics, but it also shaped folk religion, [ancestor ritual](/rituals/ancestor-ritual), lineage organization, and social values more broadly. It provided a moral language for relationships between generations.
 
 Over time, filial piety influenced household altars, ancestral halls, Qingming observances, funerary rites, and memorial practices.
 
@@ -48,21 +48,27 @@ Filial piety may be expressed through incense offering, food offerings, grave cl
 
 These actions make respect visible through repeated practice.
 
+# Ethics and Ritual Are Not Identical
+
+Filial piety is broader than ancestor ritual. It can include caring for living parents, maintaining family relationships, accepting responsibility, and remembering the dead. A person may value filial ethics without maintaining an altar, while ritual participation alone does not define the full ethical ideal.
+
+Historical appeals to filial duty also operated within unequal structures of gender, age, inheritance, and authority. Modern interpretation can preserve gratitude and intergenerational care while critically examining coercive or exclusionary uses of the concept.
+
 # Relationship to Ancestor Tablets
 
-Ancestor tablets preserve names and ritual presence within the family. Maintaining tablets can be understood as an act of filial remembrance.
+[Ancestor tablets](/folk-beliefs/ancestor-tablets) preserve names and ritual identity within the family. Maintaining tablets can be understood as an act of filial remembrance.
 
 The tablet represents more than an individual object. It becomes part of a moral and ritual system linking descendants to lineage.
 
 # Relationship to Ancestral Halls
 
-Ancestral halls express filial piety at a collective scale. They gather descendants around shared lineage memory and provide a place for ceremonies, records, and communal identity.
+[Ancestral halls](/folk-beliefs/ancestral-hall) express filial piety at a collective scale. They gather descendants around shared lineage memory and provide a place for ceremonies, records, and communal identity.
 
 This shows how filial piety can become social architecture.
 
 # Modern Interpretation
 
-In modern contexts, filial piety may be interpreted in many ways. Some families continue formal rituals, while others express remembrance through memorial visits, family gatherings, photographs, or simplified offerings.
+In modern contexts, filial piety may be interpreted in many ways. Some families continue formal rituals, while others express remembrance through memorial visits, family gatherings, photographs, caregiving, charitable acts, or simplified offerings.
 
 The underlying concern with gratitude and continuity often remains important even when practices change.
 

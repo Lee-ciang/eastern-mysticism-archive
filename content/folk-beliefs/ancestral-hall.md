@@ -70,6 +70,12 @@ An ancestral hall preserves the memory and ritual presence of earlier generation
 
 The hall is both architecture and institution. Its rooms, tablets, inscriptions, genealogies, and ceremonial spaces give physical form to kinship. Meetings and rites held there turn descent from an abstract family tree into a practiced relationship. Although religious activity is central, halls have also supported education, mediation, charity, property management, and public memory.
 
+# Hall, Household, and Grave
+
+An ancestral hall is not simply a larger [household altar](/folk-beliefs/household-altar). A household altar belongs to domestic space and may serve ancestors, deities, or other sacred figures. A hall represents a wider lineage, can preserve many [ancestor tablets](/folk-beliefs/ancestor-tablets) and genealogies, and may function as a communal institution.
+
+A grave or tomb is a burial and memorial site associated with visitation, cleaning, offerings, and seasonal care. The hall gathers lineage memory architecturally, while the grave connects remembrance to the burial place and landscape. Families may use both, one, or neither according to region, class, migration history, religious practice, and historical circumstance.
+
 # Historical Development
 
 Elite ancestral temples existed in ancient China, where ritual privilege was closely regulated by rank. Later political and social change broadened the forms through which families commemorated ancestors. During the imperial period, especially from the Song dynasty onward, lineage organization became increasingly visible in local society. Genealogies, corporate estates, ritual rules, and shared halls helped dispersed relatives define common descent.
