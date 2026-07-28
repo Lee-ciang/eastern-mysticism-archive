@@ -13,6 +13,8 @@
 
 At a `390 x 844` mobile viewport, the global navigation extends beyond the page's available width and creates horizontal document overflow. Automated inspection traced the overflow to the navigation container and its final links, not to the Yin Yang visual components.
 
+Lo Shu QA on 2026-07-27 reproduced the same pre-existing `76px` overflow. All overflowing elements again belonged to the global header navigation, and the new Lo Shu visual introduced no additional component or document overflow.
+
 ### Why It Was Excluded
 
 The issue predates the Yin Yang authority-cluster work. Commit `4f27af2` was intentionally limited to the Yin Yang content cluster, Markdown visual directive, and reusable visual components.

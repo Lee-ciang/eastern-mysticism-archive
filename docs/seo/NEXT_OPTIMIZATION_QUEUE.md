@@ -10,7 +10,7 @@ This queue translates current Search Console signals into an ordered optimizatio
 
 Each priority begins with a Search Console review and ends with validation plus a recorded optimization date.
 
-**Current active priority:** Priority 4 - Lo Shu
+**Current active priority:** Priority 5 - Ancestor Worship
 
 ## Priority 1: Yin Yang - Completed
 
@@ -87,9 +87,13 @@ The original tasks and completion criteria are retained below as historical cont
 - Major relationships and cycles are explained consistently.
 - Internal links connect relevant clusters without excessive density.
 
-## Priority 4: Lo Shu
+## Priority 4: Lo Shu - Completed
 
-**Status:** Active
+**Completed:** 2026-07-27
+**Git commit:** `52aae73`
+**Completion report:** [Lo Shu Optimization - 2026-07-27](reports/2026/07/LO_SHU_OPTIMIZATION_2026-07-27.md)
+
+The original tasks and completion criteria are retained below as historical context.
 
 ### Tasks
 
@@ -106,6 +110,8 @@ The original tasks and completion criteria are retained below as historical cont
 - Related concepts are linked without merging distinct traditions.
 
 ## Priority 5: Ancestor Worship
+
+**Status:** Active
 
 ### Tasks
 
