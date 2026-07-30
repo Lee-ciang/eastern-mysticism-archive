@@ -6,9 +6,6 @@ export const metadata = {
   title: "Eastern Mysticism Archive",
   description:
     "Research archive exploring Eastern mystical traditions, symbols, feng shui, folklore, and Taoist cosmology.",
-  alternates: {
-    canonical: "/",
-  },
   verification: {
     google: "XjoiYPpNdTrSD7_K7mYmA2_6RtlOqMTqGnCPOVJhGxc",
   },

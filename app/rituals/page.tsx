@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   title: "Rituals Database | Eastern Mysticism Archive",
   description:
     "Explore Taoist rituals, folk ceremonies, incense offerings, ancestor rites, protection rituals, talisman burning, and purification practices.",
+  alternates: {
+    canonical: "/rituals",
+  },
+  openGraph: {
+    url: "/rituals",
+  },
 };
 
 export default function RitualsPage() {

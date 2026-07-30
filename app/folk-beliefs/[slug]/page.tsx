@@ -23,10 +23,17 @@ export async function generateMetadata(
   const params = await props.params;
 
   const entry = getFolkBeliefBySlug(params.slug);
+  const canonicalPath = `/folk-beliefs/${entry.slug}`;
 
   return {
     title: `${entry.title} | Eastern Mysticism Archive`,
     description: entry.tradition,
+    alternates: {
+      canonical: canonicalPath,
+    },
+    openGraph: {
+      url: canonicalPath,
+    },
   };
 }
 

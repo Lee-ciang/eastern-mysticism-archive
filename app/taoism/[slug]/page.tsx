@@ -22,10 +22,17 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const params = await props.params;
   const entry = getTaoismEntryBySlug(params.slug);
+  const canonicalPath = `/taoism/${entry.slug}`;
 
   return {
     title: `${entry.title} | Eastern Mysticism Archive`,
     description: entry.tradition,
+    alternates: {
+      canonical: canonicalPath,
+    },
+    openGraph: {
+      url: canonicalPath,
+    },
   };
 }
 

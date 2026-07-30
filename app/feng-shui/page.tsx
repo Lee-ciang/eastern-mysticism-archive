@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   title: "Feng Shui Database | Eastern Mysticism Archive",
   description:
     "Explore Chinese Feng Shui symbols, tools, spatial traditions, and geomantic concepts.",
+  alternates: {
+    canonical: "/feng-shui",
+  },
+  openGraph: {
+    url: "/feng-shui",
+  },
 };
 
 export default function FengShuiPage() {

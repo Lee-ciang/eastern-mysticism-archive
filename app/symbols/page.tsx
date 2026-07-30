@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   title: "Symbol Database | Eastern Mysticism Archive",
   description:
     "Explore Eastern mystical symbols, Taoist diagrams, philosophical signs, and cultural motifs.",
+  alternates: {
+    canonical: "/symbols",
+  },
+  openGraph: {
+    url: "/symbols",
+  },
 };
 
 export default function SymbolsPage() {

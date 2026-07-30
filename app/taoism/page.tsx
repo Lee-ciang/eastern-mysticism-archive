@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   title: "Taoism Database | Eastern Mysticism Archive",
   description:
     "Explore Taoist philosophy, cosmology, symbols, ritual traditions, qi, Dao, Wu Wei, and classical Chinese thought systems.",
+  alternates: {
+    canonical: "/taoism",
+  },
+  openGraph: {
+    url: "/taoism",
+  },
 };
 
 export default function TaoismPage() {

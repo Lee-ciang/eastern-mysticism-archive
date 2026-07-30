@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import {
   getAllFengShuiEntries,
   getAllSymbols,
@@ -6,6 +7,15 @@ import {
   getAllTaoismEntries,
   getAllRituals,
 } from "@/lib/content";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    url: "/",
+  },
+};
 
 export default function HomePage() {
   const symbols = getAllSymbols();

@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   title: "Folk Beliefs Database | Eastern Mysticism Archive",
   description:
     "Explore Chinese folk beliefs, ancestor veneration, household protection, Ghost Month, Kitchen God customs, and protective traditions.",
+  alternates: {
+    canonical: "/folk-beliefs",
+  },
+  openGraph: {
+    url: "/folk-beliefs",
+  },
 };
 
 export default function FolkBeliefsPage() {

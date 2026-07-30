@@ -19,10 +19,17 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const params = await props.params;
   const symbol = getSymbolBySlug(params.slug);
+  const canonicalPath = `/symbols/${symbol.slug}`;
 
   return {
     title: `${symbol.title} | Eastern Mysticism Archive`,
     description: symbol.tradition,
+    alternates: {
+      canonical: canonicalPath,
+    },
+    openGraph: {
+      url: canonicalPath,
+    },
   };
 }
 
