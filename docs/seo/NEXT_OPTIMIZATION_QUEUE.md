@@ -10,9 +10,23 @@ This queue translates current Search Console signals into an ordered optimizatio
 
 Each priority begins with a Search Console review and ends with validation plus a recorded optimization date.
 
-**Current active state:** Observation and evidence gathering
+**Current active state:** Indexing Stabilization - Post-Canonical Recrawl Observation
 
-Priorities 1 through 5 are complete. No Priority 6 has been approved. The next optimization priority must be selected from Search Console evidence, indexing behavior, query breadth, and the [SEO decision rules](SEO_DECISION_RULES.md).
+Priorities 1 through 5 remain complete. No Priority 6 has been approved. New content expansion remains paused.
+
+The exact [Indexing Recovery Audit - 2026-08-20](reports/2026/08/INDEXING_RECOVERY_AUDIT_2026-08-20.md) reconciled 195 public HTML routes with the exported Google Search Console states. Of the 88 HTML routes in Crawled-not-indexed, 86 were last crawled before the site-wide canonical fix and only two after it. All 95 Discovered-not-indexed routes have no recorded crawl in the export.
+
+## Active Stabilization Gate
+
+The next optimization decision depends on post-fix crawl and indexing evidence. Until that evidence is available:
+
+- Preserve the completed Priority 1-5 authority work.
+- Monitor the five authority-page observation sample defined in the August audit.
+- Allow Google to recrawl corrected self-canonical pages and reprocess the successful sitemap.
+- Do not interpret never-crawled pages as proven content rejection.
+- Do not begin mass rewriting, deletion, consolidation, redirects, or new content expansion.
+
+If post-fix recrawls begin indexing, continue stabilization. If pages receive a post-fix crawl but remain Crawled-not-indexed for a meaningful period, evaluate selective Tier 2 or Tier 3 recovery work under the [SEO decision rules](SEO_DECISION_RULES.md). If pages remain never crawled, treat the issue primarily as crawl and discovery prioritization.
 
 ## Priority 1: Yin Yang - Completed
 
