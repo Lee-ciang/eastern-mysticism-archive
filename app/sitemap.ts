@@ -26,7 +26,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const categoryUrls = categories.map((category) => ({
     url: `${siteUrl}/${category}`,
-    lastModified: new Date(),
     changeFrequency: "weekly" as const,
     priority: 0.8,
   }));
@@ -49,7 +48,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ].map((entry) => ({
     url: entry.url,
-    lastModified: new Date(),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
@@ -57,7 +55,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: siteUrl,
-      lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,
     },
