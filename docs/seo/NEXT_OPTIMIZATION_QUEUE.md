@@ -2,6 +2,8 @@
 
 **Project:** Eastern Mysticism Archive  
 **Queue date:** 2026-07-24  
+**Recovery checkpoint:** 2026-10-04
+
 **KAPF stage:** Performance Validation
 
 ## Purpose
@@ -10,23 +12,41 @@ This queue translates current Search Console signals into an ordered optimizatio
 
 Each priority begins with a Search Console review and ends with validation plus a recorded optimization date.
 
-**Current active state:** Indexing Stabilization - Post-Canonical Recrawl Observation
+**Current active state:** Observation / Recovery Signal Monitoring
+
+**Recovery strategy:** V3A - Observation / structural freeze. No consolidation is approved.
 
 Priorities 1 through 5 remain complete. No Priority 6 has been approved. New content expansion remains paused.
 
-The exact [Indexing Recovery Audit - 2026-08-20](reports/2026/08/INDEXING_RECOVERY_AUDIT_2026-08-20.md) reconciled 195 public HTML routes with the exported Google Search Console states. Of the 88 HTML routes in Crawled-not-indexed, 86 were last crawled before the site-wide canonical fix and only two after it. All 95 Discovered-not-indexed routes have no recorded crawl in the export.
+The [V3 URL Inventory Audit - 2026-10-04](reports/2026/10/V3_URL_INVENTORY_AUDIT_2026-10-04.md) records the current checkpoint: 195 public HTML routes, comprising 10 Indexed, 90 Crawled-not-indexed, and 95 Discovered-not-indexed. One favicon is excluded. Content classes are A: 76, B: 103, C: 10, D: 0; forty pages meet historical search-signal protection criteria. The [August audit](reports/2026/08/INDEXING_RECOVERY_AUDIT_2026-08-20.md) remains the historical comparison, not the current membership baseline.
+
+| Recovery item | Current status |
+| --- | --- |
+| V1: remove misleading sitemap lastmod | Completed / retained (`f72cf45`) |
+| V2: homepage authority hierarchy | Deployed 2026-09-18 / awaiting valid post-deployment Google crawl evaluation (`e207225`) |
+| V3 URL Inventory Audit | Completed, read-only |
+| V3 implementation recommendation | V3A / no consolidation; no pilot approved |
+
+Keep V2's 17 authority destinations, five category hubs, and reachability for all 189 content pages. Crawl Stats ends nonzero activity on September 6, while a URL-table record reports a September 15 crawl; both predate V2 deployment. This discrepancy remains unresolved and does not establish valid post-V2 evaluation.
 
 ## Active Stabilization Gate
 
-The next optimization decision depends on post-fix crawl and indexing evidence. Until that evidence is available:
+The next decision depends on new crawl and indexing evidence, not a new content-production target. Until that evidence is reviewed:
 
 - Preserve the completed Priority 1-5 authority work.
-- Monitor the five authority-page observation sample defined in the August audit.
+- Monitor the August authority-page sample using current membership: Lo Shu Square is now Indexed; preserve the other observed authority pages and historical search signals.
+- Retain V1 and V2; freeze homepage hierarchy, canonical strategy, sitemap architecture, robots, and the 189-page content inventory.
 - Allow Google to recrawl corrected self-canonical pages and reprocess the successful sitemap.
 - Do not interpret never-crawled pages as proven content rejection.
 - Do not begin mass rewriting, deletion, consolidation, redirects, or new content expansion.
+- Do not schedule another authority-page rewrite wave or turn the ten Class C reviews into implementation tasks.
+- Do not request indexing or manipulate indexing signals merely to force activity.
 
-If post-fix recrawls begin indexing, continue stabilization. If pages receive a post-fix crawl but remain Crawled-not-indexed for a meaningful period, evaluate selective Tier 2 or Tier 3 recovery work under the [SEO decision rules](SEO_DECISION_RULES.md). If pages remain never crawled, treat the issue primarily as crawl and discovery prioritization.
+Review fresh exports in 14 days from the October 4 checkpoint, as recommended by the V3 audit; this is not an automatic intervention deadline. Re-evaluate on renewed HTML/smartphone crawling, verified exposure to current versions, exact Page Indexing membership movement, or meaningful new impressions/clicks. Compare consistent reporting windows and dimensions. Without verified exposure, continue observation rather than declare V2 unsuccessful.
+
+If recrawled authority pages begin indexing, preserve the successful state. Persistent non-indexing after meaningful recrawl can justify a separately approved page-level review under the [SEO decision rules](SEO_DECISION_RULES.md), not automatic consolidation. Any future approved pilot would be observed for 28-42 days after verified recrawl of changed sources/destinations, not merely after deployment. No pilot is selected now.
+
+The mobile navigation overflow remains in the separate [technical backlog](TECHNICAL_BACKLOG.md); its status and engineering scope are unchanged.
 
 ## Priority 1: Yin Yang - Completed
 

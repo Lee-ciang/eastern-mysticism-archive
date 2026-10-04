@@ -105,6 +105,7 @@ Completed reports:
 - [Lo Shu Optimization - 2026-07-27](reports/2026/07/LO_SHU_OPTIMIZATION_2026-07-27.md)
 - [Ancestor Worship Optimization - 2026-07-28](reports/2026/07/ANCESTOR_WORSHIP_OPTIMIZATION_2026-07-28.md)
 - [Indexing Recovery Audit - 2026-08-20](reports/2026/08/INDEXING_RECOVERY_AUDIT_2026-08-20.md)
+- [V3 URL Inventory Audit - 2026-10-04](reports/2026/10/V3_URL_INVENTORY_AUDIT_2026-10-04.md)
 
 ### [Technical Backlog](TECHNICAL_BACKLOG.md)
 
@@ -175,4 +176,4 @@ SEO OS v1.0 includes:
 - A practical SEO playbook.
 - A year-and-month report hierarchy.
 
-The current operating focus is **Indexing Stabilization - Post-Canonical Recrawl Observation**. The [August indexing recovery audit](reports/2026/08/INDEXING_RECOVERY_AUDIT_2026-08-20.md) records the evidence, observation sample, recovery tiers, and decision gate. Expansion remains paused while post-fix crawl and indexing evidence develops.
+The current operating focus is **Observation / Recovery Signal Monitoring**, following the [V3 URL Inventory Audit](reports/2026/10/V3_URL_INVENTORY_AUDIT_2026-10-04.md): V3A, no consolidation, and structural freeze. V1 is retained; V2 is deployed and awaiting valid post-deployment Google crawl evaluation. Expansion remains paused; the [current queue](NEXT_OPTIMIZATION_QUEUE.md) records the monitoring gate. The [August audit](reports/2026/08/INDEXING_RECOVERY_AUDIT_2026-08-20.md) remains the historical baseline.
